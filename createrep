@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Script pour créer l'arborescence des répertoires de l'architecture Plan
+# À exécuter depuis la racine du projet
+
+echo "Création de l'arborescence des répertoires pour l'architecture Plan..."
+
+# Créer la structure principale
+mkdir -p client/src/components/plan
+
+# Créer les sous-répertoires
+mkdir -p client/src/components/plan/{objects,renderers,services,types}
+
+# Créer les sous-sous-répertoires
+mkdir -p client/src/components/plan/objects/{base,sensors,actuators}
+mkdir -p client/src/components/plan/renderers/{base,sensor-renderers,actuator-renderers}
+
+# Créer le répertoire pour le CSS
+mkdir -p client/src/assets/styles

@@ -1,0 +1,3431 @@
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GG8SC14R24QYC39KXP05
+  config_entries_subentries:
+    01K2W0GG8SC14R24QYC39KXP05:
+      - null
+  connections: []
+  created_at: 1755434205.472559
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 64bd15afe481221429fe2313b5f173a9
+  identifiers:
+    - - sun
+      - 01K2W0GG8SC14R24QYC39KXP05
+  labels: []
+  manufacturer: null
+  model: null
+  model_id: null
+  modified_at: 1755434205.472675
+  name_by_user: null
+  name: Sun
+  primary_config_entry: 01K2W0GG8SC14R24QYC39KXP05
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: homeassistant://config/backup
+  config_entries:
+    - 01K2W0GGTV29SWXCPJ5X6W53T6
+  config_entries_subentries:
+    01K2W0GGTV29SWXCPJ5X6W53T6:
+      - null
+  connections: []
+  created_at: 1755434206.111985
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 8fca92dc423743141596dd7cbcffc784
+  identifiers:
+    - - backup
+      - backup_manager
+  labels: []
+  manufacturer: Home Assistant
+  model: Home Assistant Backup
+  model_id: null
+  modified_at: 1769012749.471963
+  name_by_user: null
+  name: Backup
+  primary_config_entry: 01K2W0GGTV29SWXCPJ5X6W53T6
+  serial_number: null
+  sw_version: 2025.12.5
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755434211.628584
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 817caa9a96d1c1d51ca04f70ed653bc1
+  identifiers:
+    - - cast
+      - 5ead1044a0290aba543fb49805dd9786
+  labels: []
+  manufacturer: Google Inc.
+  model: Google Home Mini
+  model_id: null
+  modified_at: 1755434211.628677
+  name_by_user: null
+  name: Salon
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755434211.6837
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 37971661acfc69839a87ecfc6a31f44b
+  identifiers:
+    - - cast
+      - 8639f94b706194f92c4aa558bc5b4a60
+  labels: []
+  manufacturer: Google Inc.
+  model: Google Home Mini
+  model_id: null
+  modified_at: 1755434211.683793
+  name_by_user: null
+  name: Cuisine
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755434211.831286
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 01a5b858b884dfb663e36865fb8fcaea
+  identifiers:
+    - - cast
+      - 4a19d137d86b4d00877b8c820de9c746
+  labels: []
+  manufacturer: Google Inc.
+  model: Google Cast Group
+  model_id: null
+  modified_at: 1755434211.831381
+  name_by_user: null
+  name: cuisine télé
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755434211.942829
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 7ab20719e1648fa3b283ad793ea683f2
+  identifiers:
+    - - cast
+      - 73d05305d2ed4fe3a7ceb37e3b41ed73
+  labels: []
+  manufacturer: Google Inc.
+  model: Google Cast Group
+  model_id: null
+  modified_at: 1755434211.94294
+  name_by_user: null
+  name: Maison
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755434212.064444
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 19fe481936b65c8255e9e374881ab756
+  identifiers:
+    - - cast
+      - 811128b8e234472c8fb6aa026312a54a
+  labels: []
+  manufacturer: Google Inc.
+  model: Google Cast Group
+  model_id: null
+  modified_at: 1755434212.064541
+  name_by_user: null
+  name: salo
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GGXYV5AMF7X962M878E2
+  config_entries_subentries:
+    01K2W0GGXYV5AMF7X962M878E2:
+      - null
+  connections:
+    - - bluetooth
+      - DC:A6:32:34:2C:F7
+  created_at: 1755434215.784465
+  disabled_by: null
+  entry_type: null
+  hw_version: usb:v1D6Bp0246d0542
+  id: 0bf6a632f63e5e6f6e3b2e482936e531
+  identifiers: []
+  labels: []
+  manufacturer: Raspberry Pi Trading Ltd
+  model: bcm43438-bt
+  model_id: null
+  modified_at: 1755434215.784625
+  name_by_user: null
+  name: hci0 (DC:A6:32:34:2C:F7)
+  primary_config_entry: 01K2W0GGXYV5AMF7X962M878E2
+  serial_number: null
+  sw_version: ha2
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755434565.757857
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 4a9042e452ce194caff07d5ca477cbb6
+  identifiers:
+    - - cast
+      - b5a6184394be38ee142770cf1d6c4e68
+  labels: []
+  manufacturer: Unknown manufacturer
+  model: Freebox Player POP
+  model_id: null
+  modified_at: 1768499243.3303
+  name_by_user: null
+  name: Freebox Player POP
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: https://www.met.no/en
+  config_entries:
+    - 01K2W23JH8DK3YSD2K2AWRAM53
+  config_entries_subentries:
+    01K2W23JH8DK3YSD2K2AWRAM53:
+      - null
+  connections: []
+  created_at: 1755435879.366217
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 71ffb5ebd18ca3ca25e086dbea7d9009
+  identifiers:
+    - - met
+      - 01K2W23JH8DK3YSD2K2AWRAM53
+  labels: []
+  manufacturer: Met.no
+  model: Forecast
+  model_id: null
+  modified_at: 1755435879.366338
+  name_by_user: null
+  name: Forecast
+  primary_config_entry: 01K2W23JH8DK3YSD2K2AWRAM53
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W0GMWKGHK70T1HR5ADT7R0
+  config_entries_subentries:
+    01K2W0GMWKGHK70T1HR5ADT7R0:
+      - null
+  connections: []
+  created_at: 1755458293.448197
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 6414bb2ddf45897aa34555ee72f972a9
+  identifiers:
+    - - cast
+      - 82ee1cbbad8543e09cc897596cb76c65
+  labels: []
+  manufacturer: Unknown manufacturer
+  model: BeyondTV2
+  model_id: null
+  modified_at: 1769119196.062618
+  name_by_user: null
+  name: Téléviseur du salon
+  primary_config_entry: 01K2W0GMWKGHK70T1HR5ADT7R0
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: cuisine_d_ete
+  configuration_url: http://192.168.1.75/
+  config_entries:
+    - 01K92PPFQ7H7PEDVGKHXR5T6DX
+  config_entries_subentries:
+    01K92PPFQ7H7PEDVGKHXR5T6DX:
+      - null
+  connections:
+    - - mac
+      - cc:50:e3:15:b7:65
+  created_at: 1762101247.920891
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 77f80e2d7e9d274186a5579564338535
+  identifiers: []
+  labels: []
+  manufacturer: Tasmota
+  model: Sonoff Basic
+  model_id: null
+  modified_at: 1762101327.296235
+  name_by_user: null
+  name: cuisine d'été--frigidaire
+  primary_config_entry: 01K92PPFQ7H7PEDVGKHXR5T6DX
+  serial_number: null
+  sw_version: 15.1.0
+  via_device_id: null
+- area_id: cuisine_d_ete
+  configuration_url: http://192.168.1.124/
+  config_entries:
+    - 01K92PPFQ7H7PEDVGKHXR5T6DX
+  config_entries_subentries:
+    01K92PPFQ7H7PEDVGKHXR5T6DX:
+      - null
+  connections:
+    - - mac
+      - cc:50:e3:56:ef:70
+  created_at: 1762101247.958271
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 5530d6ad7ce348a34835af40ee89a98b
+  identifiers: []
+  labels: []
+  manufacturer: Tasmota
+  model: Sonoff Basic
+  model_id: null
+  modified_at: 1762101336.666175
+  name_by_user: null
+  name: cuisine été--plaques
+  primary_config_entry: 01K92PPFQ7H7PEDVGKHXR5T6DX
+  serial_number: null
+  sw_version: 15.1.0
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01KA1MRF0V1PB6V6CRN3XY72Q3
+  config_entries_subentries:
+    01KA1MRF0V1PB6V6CRN3XY72Q3:
+      - null
+  connections: []
+  created_at: 1763139402.780553
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 7a560ec4f5616fcdcbcd0f0c26f82298
+  identifiers:
+    - - mobile_app
+      - aac2e3a19be74ce0
+  labels: []
+  manufacturer: samsung
+  model: SM-G975F
+  model_id: null
+  modified_at: 1763139402.780717
+  name_by_user: null
+  name: SM-G975F
+  primary_config_entry: 01KA1MRF0V1PB6V6CRN3XY72Q3
+  serial_number: null
+  sw_version: '31'
+  via_device_id: null
+- area_id: bureau
+  configuration_url: >-
+    http://192.168.1.187/hp/device/info_config_AirPrint.html?tab=Networking&menu=AirPrintStatus
+  config_entries:
+    - 01KBJ74R306A25B2J459P2MP8J
+  config_entries_subentries:
+    01KBJ74R306A25B2J459P2MP8J:
+      - null
+  connections: []
+  created_at: 1764769292.699495
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 1311c7e2798ac95dea21a5b0f4900f5a
+  identifiers:
+    - - ipp
+      - 7d880bbb-ccc7-411e-b997-a60eba7f6559
+  labels: []
+  manufacturer: HP
+  model: HP LaserJet MFP M232-M237
+  model_id: null
+  modified_at: 1764769298.451822
+  name_by_user: null
+  name: HP LaserJet MFP M232-M237
+  primary_config_entry: 01KBJ74R306A25B2J459P2MP8J
+  serial_number: null
+  sw_version: '20250324'
+  via_device_id: null
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01KBJMSRD4DE890HPTDCQP5S14
+  config_entries_subentries:
+    01KBJMSRD4DE890HPTDCQP5S14:
+      - null
+  connections:
+    - - mac
+      - 3c:dc:75:6e:eb:b0
+  created_at: 1764781529.082568
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 53f5d428d2b977244cc301ce5b0976ea
+  identifiers: []
+  labels: []
+  manufacturer: Espressif
+  model: esp32-s3-devkitc-1
+  model_id: null
+  modified_at: 1764783722.810438
+  name_by_user: null
+  name: hasat3
+  primary_config_entry: 01KBJMSRD4DE890HPTDCQP5S14
+  serial_number: null
+  sw_version: 2025.11.2 (Dec  3 2025, 18:26:43)
+  via_device_id: null
+- area_id: chambre_de_jo
+  configuration_url: null
+  config_entries:
+    - 01KBJZJ8HPW67JQ88X2HZH97DG
+  config_entries_subentries:
+    01KBJZJ8HPW67JQ88X2HZH97DG:
+      - null
+  connections:
+    - - mac
+      - 3c:dc:75:6e:e6:1c
+  created_at: 1764794901.168178
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: b2945b9dffaa7b8f93f06f6805c1e3a9
+  identifiers: []
+  labels: []
+  manufacturer: Espressif
+  model: esp32-s3-devkitc-1
+  model_id: null
+  modified_at: 1764794974.854799
+  name_by_user: null
+  name: hasat4
+  primary_config_entry: 01KBJZJ8HPW67JQ88X2HZH97DG
+  serial_number: null
+  sw_version: 2025.11.2 (Dec  3 2025, 18:31:26)
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01KAXAYZ974J42KJ3734BPP4R1
+  config_entries_subentries:
+    01KAXAYZ974J42KJ3734BPP4R1:
+      - 01KBKFC0AE351A387JV9Z7BAGT
+  connections: []
+  created_at: 1764811473.252254
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 6f86ef00d7944aec65e90d7436cdb8e5
+  identifiers:
+    - - ollama
+      - 01KBKFC0AE351A387JV9Z7BAGT
+  labels: []
+  manufacturer: Ollama
+  model: llama3.2
+  model_id: null
+  modified_at: 1764811473.252465
+  name_by_user: null
+  name: Ollama Conversation
+  primary_config_entry: 01KAXAYZ974J42KJ3734BPP4R1
+  serial_number: null
+  sw_version: latest
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01KAXAYZ974J42KJ3734BPP4R1
+  config_entries_subentries:
+    01KAXAYZ974J42KJ3734BPP4R1:
+      - 01KBKFDE8CCQAP9QG8TE7D6T6F
+  connections: []
+  created_at: 1764811520.296031
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 7614a783d005c43f73e755514d00fb60
+  identifiers:
+    - - ollama
+      - 01KBKFDE8CCQAP9QG8TE7D6T6F
+  labels: []
+  manufacturer: Ollama
+  model: llama3.2
+  model_id: null
+  modified_at: 1764811520.296222
+  name_by_user: null
+  name: Ollama AI Task
+  primary_config_entry: 01KAXAYZ974J42KJ3734BPP4R1
+  serial_number: null
+  sw_version: latest
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01KFDPDNJ9H2B69MNN49VGEWRF
+  config_entries_subentries:
+    01KFDPDNJ9H2B69MNN49VGEWRF:
+      - null
+  connections: []
+  created_at: 1764851560.662342
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: e728f899ca68292cf5a777f3b008ee57
+  identifiers:
+    - - mobile_app
+      - 1c2e8bbe6cdb1d69
+  labels: []
+  manufacturer: samsung
+  model: SM-G970F
+  model_id: null
+  modified_at: 1768912508.507382
+  name_by_user: null
+  name: SM-G970F
+  primary_config_entry: 01KFDPDNJ9H2B69MNN49VGEWRF
+  serial_number: null
+  sw_version: '31'
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01KC0KSWX9XBF265EKF6RK9KGT
+  config_entries_subentries:
+    01KC0KSWX9XBF265EKF6RK9KGT:
+      - 01KC0KZBYT5X734KC6MWGK5ZYT
+  connections: []
+  created_at: 1765252509.680281
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: bcccce2bbacbc16b825082eb892247ce
+  identifiers:
+    - - ollama
+      - 01KC0KZBYT5X734KC6MWGK5ZYT
+  labels: []
+  manufacturer: Ollama
+  model: llama3.2
+  model_id: null
+  modified_at: 1765252509.680444
+  name_by_user: null
+  name: Ollama falbala
+  primary_config_entry: 01KC0KSWX9XBF265EKF6RK9KGT
+  serial_number: null
+  sw_version: latest
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01KC0KSWX9XBF265EKF6RK9KGT
+  config_entries_subentries:
+    01KC0KSWX9XBF265EKF6RK9KGT:
+      - 01KC0MPV30RFBVDX1SFJGKYZXF
+  connections: []
+  created_at: 1765253278.8399
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: e2c4ded5451a60ac3cc0ee3c6623df5d
+  identifiers:
+    - - ollama
+      - 01KC0MPV30RFBVDX1SFJGKYZXF
+  labels: []
+  manufacturer: Ollama
+  model: llama3.2
+  model_id: null
+  modified_at: 1765253278.840057
+  name_by_user: null
+  name: Ollama AI Task
+  primary_config_entry: 01KC0KSWX9XBF265EKF6RK9KGT
+  serial_number: null
+  sw_version: latest
+  via_device_id: null
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01KC24WNQWW3GQPPEBTRVS5SSX
+  config_entries_subentries:
+    01KC24WNQWW3GQPPEBTRVS5SSX:
+      - 01KC24WNQWX20GYSK1DZY0MWSB
+  connections: []
+  created_at: 1765303801.812063
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: f03d947bdafe5c5fb242c697eb7f898d
+  identifiers:
+    - - google_generative_ai_conversation
+      - 01KC24WNQWX20GYSK1DZY0MWSB
+  labels: []
+  manufacturer: Google
+  model: gemini-2.5-flash
+  model_id: null
+  modified_at: 1765303855.094023
+  name_by_user: null
+  name: Google AI Task
+  primary_config_entry: 01KC24WNQWW3GQPPEBTRVS5SSX
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01KC24WNQWW3GQPPEBTRVS5SSX
+  config_entries_subentries:
+    01KC24WNQWW3GQPPEBTRVS5SSX:
+      - 01KC24WNQWMVJYYRBSBV38XM4Q
+  connections: []
+  created_at: 1765303801.815183
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 5d61f4efac7bbd6d84628f5267147c06
+  identifiers:
+    - - google_generative_ai_conversation
+      - 01KC24WNQWMVJYYRBSBV38XM4Q
+  labels: []
+  manufacturer: Google
+  model: gemini-2.5-flash
+  model_id: null
+  modified_at: 1765303855.095323
+  name_by_user: null
+  name: Google AI Conversation
+  primary_config_entry: 01KC24WNQWW3GQPPEBTRVS5SSX
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01KC24WNQWW3GQPPEBTRVS5SSX
+  config_entries_subentries:
+    01KC24WNQWW3GQPPEBTRVS5SSX:
+      - 01KC24WNQW1NBSA5AH0C2ESC76
+  connections: []
+  created_at: 1765303801.817344
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: f575fcfa09677d069203edabd6a0af37
+  identifiers:
+    - - google_generative_ai_conversation
+      - 01KC24WNQW1NBSA5AH0C2ESC76
+  labels: []
+  manufacturer: Google
+  model: gemini-2.5-flash
+  model_id: null
+  modified_at: 1765303855.096101
+  name_by_user: null
+  name: Google AI STT
+  primary_config_entry: 01KC24WNQWW3GQPPEBTRVS5SSX
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01KC24WNQWW3GQPPEBTRVS5SSX
+  config_entries_subentries:
+    01KC24WNQWW3GQPPEBTRVS5SSX:
+      - 01KC24WNQWN7X90B9ASB51NSRF
+  connections: []
+  created_at: 1765303801.82216
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: ad2a99fe73becfa5e07664dea68e75c8
+  identifiers:
+    - - google_generative_ai_conversation
+      - 01KC24WNQWN7X90B9ASB51NSRF
+  labels: []
+  manufacturer: Google
+  model: gemini-2.5-flash-preview-tts
+  model_id: null
+  modified_at: 1765303855.096811
+  name_by_user: null
+  name: Google AI TTS
+  primary_config_entry: 01KC24WNQWW3GQPPEBTRVS5SSX
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: ordi
+  configuration_url: homeassistant://hacs
+  config_entries:
+    - 01KC4ACJD76M59JJJX12E1X869
+  config_entries_subentries:
+    01KC4ACJD76M59JJJX12E1X869:
+      - null
+  connections: []
+  created_at: 1765376677.552992
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 8f5d07ddee7d444b294e5e448505a90c
+  identifiers:
+    - - hacs
+      - >-
+        0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd
+  labels: []
+  manufacturer: hacs.xyz
+  model: ''
+  model_id: null
+  modified_at: 1765376711.791791
+  name_by_user: null
+  name: HACS
+  primary_config_entry: 01KC4ACJD76M59JJJX12E1X869
+  serial_number: null
+  sw_version: 2.0.5
+  via_device_id: null
+- area_id: null
+  configuration_url: homeassistant://hacs/repository/455174197
+  config_entries:
+    - 01KC4ACJD76M59JJJX12E1X869
+  config_entries_subentries:
+    01KC4ACJD76M59JJJX12E1X869:
+      - null
+  connections: []
+  created_at: 1765377002.215558
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: 666b71512268d6a0904b51549ee305af
+  identifiers:
+    - - hacs
+      - '455174197'
+  labels: []
+  manufacturer: dummylabs
+  model: integration
+  model_id: null
+  modified_at: 1765377002.215725
+  name_by_user: null
+  name: Watchman
+  primary_config_entry: 01KC4ACJD76M59JJJX12E1X869
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974689.505981
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 115201a8c59ed14d459647d7e95a1012
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c13824668eed4c
+  labels: []
+  manufacturer: Tuya
+  model: Smart plug (with power monitoring by polling)
+  model_id: TS011F_plug_3
+  modified_at: 1769004672.903854
+  name_by_user: null
+  name: Machine à laver
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974688.087308
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 9579be3d5f20b6b1f1fa0b54573f6312
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xe0798dfffe51e9f5
+  labels: []
+  manufacturer: Tongou
+  model: Smart circuit breaker
+  model_id: TO-Q-SY2-163JZT
+  modified_at: 1769004672.759598
+  name_by_user: null
+  name: Gros ballon
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: infra
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974689.201451
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 2740e9307d55474219e6a475ac2f23de
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x84b4dbfffeac28eb
+  labels: []
+  manufacturer: Tongou
+  model: Din smart relay (with power monitoring via polling)
+  model_id: TO-Q-SY1-JZT
+  modified_at: 1769004672.895848
+  name_by_user: null
+  name: Petit ballon
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974690.390227
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 32b3d2456511480eb69e3a266bc5cc5d
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c13853a9961f2a
+  labels: []
+  manufacturer: Tuya
+  model: Wall switch module
+  model_id: WHD02
+  modified_at: 1769004672.707973
+  name_by_user: null
+  name: Lumière vitrine
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: terrasse
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974690.613108
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: a2e47f208b680e8a70d0bc6c076b8627
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x00124b002579c2d5
+  labels: []
+  manufacturer: SONOFF
+  model: Zigbee smart switch (no neutral)
+  model_id: ZBMINI-L
+  modified_at: 1769004672.711846
+  name_by_user: null
+  name: Lumière
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 1.1.1
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: chambre_du_bas
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974690.797884
+  disabled_by: null
+  entry_type: null
+  hw_version: '30'
+  id: b309221e6d9bffb7301a901551c2e347
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x00158d000800d6fb
+  labels: []
+  manufacturer: Aqara
+  model: Temperature and humidity sensor
+  model_id: WSDCGQ11LM
+  modified_at: 1769004673.808762
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 3000-0001
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_de_bain_du_bas
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974691.019508
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 31971d4944e3de70b18be258cf51ff09
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x00158d00090eb155
+  labels: []
+  manufacturer: Aqara
+  model: Temperature and humidity sensor
+  model_id: WSDCGQ11LM
+  modified_at: 1769004673.835463
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974691.315633
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 20c63740dcf41ef3cefa0d4be9598890
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x84b4dbfffeac2e6f
+  labels: []
+  manufacturer: Tongou
+  model: Din smart relay (with power monitoring via polling)
+  model_id: TO-Q-SY1-JZT
+  modified_at: 1769004672.932189
+  name_by_user: null
+  name: Plaques
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974691.773108
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 1d17e6c2e4c7d58765390816d979cec4
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x842e14fffe140db0
+  labels: []
+  manufacturer: Lidl
+  model: Livarno Home RGB+CCT LED light strip 2m
+  model_id: HG06104A
+  modified_at: 1769077931.398412
+  name_by_user: null
+  name: Lumière plan de travail
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: bibliotheque
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974691.938539
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: c85780231ca9e886feaed1356eba568f
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xcc86ecfffebe7929
+  labels: []
+  manufacturer: Tuya
+  model: Temperature & humidity sensor
+  model_id: TS0601_temperature_humidity_sensor_1
+  modified_at: 1769004673.881556
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_de_bain_du_haut
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974692.079542
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 66492ce23eee916046a6d3a8868a5ca1
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x00158d00080281f6
+  labels: []
+  manufacturer: Aqara
+  model: Temperature and humidity sensor
+  model_id: WSDCGQ11LM
+  modified_at: 1769004673.897769
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: bureau_de_didier
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974694.013489
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 63667c53a6b66c9569bfe70edca2ccf2
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c138617efaebb0
+  labels: []
+  manufacturer: Tuya
+  model: Button scene switch
+  model_id: SH-SC07
+  modified_at: 1769077932.625417
+  name_by_user: null
+  name: Bouton lumière du bureau
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974694.084911
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: c97f8f36aabf353d5c430587830f23ce
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x804b50fffee55506
+  labels: []
+  manufacturer: Tuya
+  model: Radiator valve with thermostat
+  model_id: TS0601_thermostat
+  modified_at: 1769077931.242235
+  name_by_user: null
+  name: Thermostat
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974695.023212
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 904a9db21f785e183abc7b9bba8c8ada
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c138e1a9e8a1ac
+  labels: []
+  manufacturer: Tuya
+  model: Smart plug (with power monitoring by polling)
+  model_id: TS011F_plug_3
+  modified_at: 1769004672.959744
+  name_by_user: null
+  name: Prise du poêle
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_de_bain_du_haut
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974695.901971
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 35b8e4a7ab219403b3d64a77ff032115
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x187a3efffe9e7e5a
+  labels: []
+  manufacturer: Tuya
+  model: Universal smart IR remote control
+  model_id: ZS06
+  modified_at: 1769077933.003142
+  name_by_user: null
+  name: salle de bain du haut--infra rouge radiateur
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: chambre_de_jo
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974696.041286
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: b595ae3280d3989e8a5712315cb5defd
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1384bdec731a2
+  labels: []
+  manufacturer: AVATTO
+  model: Thermostatic radiator valve
+  model_id: ME167_1
+  modified_at: 1769077931.286334
+  name_by_user: null
+  name: Thermostat
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: bureau
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974696.699625
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 47cc5d81999f694aae351e22d5caa8a2
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1380af7888b3f
+  labels: []
+  manufacturer: AVATTO
+  model: Thermostatic radiator valve
+  model_id: ME167_1
+  modified_at: 1769077931.291157
+  name_by_user: null
+  name: Thermostat
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: chambre_d_ami
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974697.395647
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: ff703990fe22ff31ce3f98bd091e9864
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1383945717a97
+  labels: []
+  manufacturer: AVATTO
+  model: Thermostatic radiator valve
+  model_id: ME167_1
+  modified_at: 1769077931.295958
+  name_by_user: null
+  name: Thermostat
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salon
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974698.069421
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 9a0b1912be8c66973292b8209b2711ce
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x187a3efffe9e8eb4
+  labels: []
+  manufacturer: Tuya
+  model: Universal smart IR remote control
+  model_id: ZS06
+  modified_at: 1769077933.113263
+  name_by_user: null
+  name: salon--infrarouge télévision
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_de_bain_du_haut
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974698.242836
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 3a58c388b7b005048627b37582e5187a
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c138bac3e7863c
+  labels: []
+  manufacturer: Tuya
+  model: 1 gang switch module
+  model_id: TS0001_switch_module
+  modified_at: 1769004672.851814
+  name_by_user: null
+  name: Radiateur
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974698.533483
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 0850b06bcf26960f1f855195efc64712
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x84b4dbfffeac2963
+  labels: []
+  manufacturer: Tongou
+  model: Din smart relay (with power monitoring via polling)
+  model_id: TO-Q-SY1-JZT
+  modified_at: 1769004672.977395
+  name_by_user: null
+  name: Four
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: escalier
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974698.866614
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: b129deb63275ce0e9352131d237672f8
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c13849a4175f5f
+  labels: []
+  manufacturer: Tuya
+  model: Motion sensor
+  model_id: IH012-RT01
+  modified_at: 1769004672.638512
+  name_by_user: null
+  name: Escalier-détecteur
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: blanc
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974699.14046
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 901cb9e276f88cd7a08daa9b4dfdee7c
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1384672300573
+  labels: []
+  manufacturer: Tuya
+  model: Wireless switch with 4 buttons
+  model_id: TS0044
+  modified_at: 1769077932.742158
+  name_by_user: null
+  name: Scènes switch
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: '0122052017'
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: noir
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974699.298555
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: f1d94a538770381a8005b058d7ef9c70
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x0c2a6ffffed9b04d
+  labels: []
+  manufacturer: Tuya
+  model: Wireless switch with 4 buttons
+  model_id: TS0044
+  modified_at: 1769077932.750259
+  name_by_user: null
+  name: Scènes switch
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_de_bain_du_haut
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974699.361319
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: 6be01939666180ed8256ff9882f42043
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1388d2bd913f8
+  labels: []
+  manufacturer: Tuya
+  model: 2 gang switch module
+  model_id: TS0002_basic
+  modified_at: 1769004672.721729
+  name_by_user: null
+  name: Lumière
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: chambre_de_jo
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1761127048.149505
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: b41a68ef5476c9cbc4ff0b8772be3542
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1383b461b22c8
+  labels: []
+  manufacturer: Aubess
+  model: 2 gang switch
+  model_id: TMZ02
+  modified_at: 1769004672.729561
+  name_by_user: null
+  name: Chevets
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: chambre_de_jo
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1761128498.537055
+  disabled_by: null
+  entry_type: null
+  hw_version: '2'
+  id: 8200b3bec512ea702d2bb2e93c9f4b5d
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x70b3d52b6012afe0
+  labels: []
+  manufacturer: Tuya
+  model: 1 gang switch module
+  model_id: TS0001_switch_module
+  modified_at: 1769004672.7382
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 500+TZTDQ71BS104
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: chambre_de_jo
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1761150717.891534
+  disabled_by: null
+  entry_type: null
+  hw_version: '2'
+  id: 5e069e35894bca7e92c41b17b1b7b221
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x70b3d52b600441fe
+  labels: []
+  manufacturer: Tuya
+  model: Smart plug (with power monitoring by polling)
+  model_id: TS011F_plug_3
+  modified_at: 1769004672.74207
+  name_by_user: null
+  name: Leds
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 500+TZSKT31BS102
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: toilettes_du_haut
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1761232688.553067
+  disabled_by: null
+  entry_type: null
+  hw_version: '2'
+  id: d47526b286530ef98df6485393737701
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x70b3d52b6016c33c
+  labels: []
+  manufacturer: Tuya
+  model: 1 gang switch module
+  model_id: TS0001_switch_module
+  modified_at: 1769004672.745844
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 500+TZTDQ71BS104
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: toilettes_du_haut
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1761232942.725665
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: a007dfdcd07b48cd051e14f41361fb5a
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c1384353053d09
+  labels: []
+  manufacturer: Tuya
+  model: Luminance motion sensor
+  model_id: ZG-204ZL
+  modified_at: 1769004672.646444
+  name_by_user: null
+  name: Detecteur
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: '0122052017'
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1762955371.042491
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: c282f617af6ebf53ff3fe152cf17f450
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c138153f3cb573
+  labels: []
+  manufacturer: Tuya
+  model: Wireless switch with 1 button
+  model_id: TS0041
+  modified_at: 1769077932.80066
+  name_by_user: null
+  name: Bouton
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1763136695.933454
+  disabled_by: null
+  entry_type: null
+  hw_version: '0'
+  id: bdfd050107e747854b5fb700abf5cbe2
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c138004552ffff
+  labels: []
+  manufacturer: NEO
+  model: Smart plug (with electrical measurements)
+  model_id: NAS-WR01B
+  modified_at: 1769004672.74995
+  name_by_user: null
+  name: Prise lumière bureau
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 1.0.3
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755440198.601075
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: f60460c0fa8b8d8743c612bef3a576bb
+  identifiers:
+    - - mqtt
+      - NEWRFX-1
+  labels: []
+  manufacturer: RfxCom
+  model: ''
+  model_id: null
+  modified_at: 1765466852.078709
+  name_by_user: null
+  name: Rfx new device
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: NEWRFX-1
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755444266.64162
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: cd5e057f19af7d01e7d3e8d4070fa3f8
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x017334A2_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.563695
+  name_by_user: null
+  name: salle a manger-escalier-haut
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x017334A2_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755708885.474983
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: d1ec93d64518402ce123cd06ebd2f115
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0156F0D6_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768989595.441018
+  name_by_user: null
+  name: Salle a manger-escalier-milieu-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0156F0D6_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1763560413.879343
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 871f9fc09af0a7ee125aafefb59e49b8
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01570D5A_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.581264
+  name_by_user: null
+  name: salle a manger-escalier-bas gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01570D5A_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764852517.604045
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 68cd6d68500697ee61fb97cde5041e42
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01570892_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.595237
+  name_by_user: null
+  name: salle à manger-entree-haut-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01570892_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764852595.132481
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 3a6fd51b13f85705d78d248e4c87944f
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01571FA6_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768986036.551059
+  name_by_user: null
+  name: Salle a manger-entree-bas-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01571FA6_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764852664.738095
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: af3b5ed41d5dd134aff4748f09a17b9b
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01571FA6_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.610975
+  name_by_user: null
+  name: salle à manger-entrée-bas-droite
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01571FA6_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: entree
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764853782.502716
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: bc87b37e066c57f0d626d2ff97165378
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x00C53F52_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.618318
+  name_by_user: null
+  name: entrée porte gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x00C53F52_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: entree
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764853906.097177
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 5d80edbd5653383dfc2298fe66063843
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01731B7E_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.625271
+  name_by_user: null
+  name: entrée-côté chambre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01731B7E_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764854624.41511
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 175988bdd653559197c639a50fa67360
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x015705EE_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.63387
+  name_by_user: null
+  name: cuisine-entree-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x015705EE_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764854744.046093
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 9c6e50e9bb21cf760300641ce828081f
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x015705EE_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.640661
+  name_by_user: null
+  name: cuisine-entrée-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x015705EE_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764854881.276072
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 523fa15a9b5b16cd4357d46430826c1d
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0229E8AE_1
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.64754
+  name_by_user: null
+  name: cuisine-porte extérieure-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0229E8AE_1
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764854930.542521
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 1fa6553764559deafa0b062c1f46040e
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0229E8AE_2
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.654624
+  name_by_user: null
+  name: cuisine-porte extérieure-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0229E8AE_2
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764864284.309708
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: d44a0a5c61325e224618db5d0e8768c2
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01732D92_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.663633
+  name_by_user: null
+  name: escalier-haut-bas
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01732D92_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870168.296594
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: ca9ae1a9056fcdcab876260db89fb658
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0156D382_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.670579
+  name_by_user: null
+  name: Bureau-entrée-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0156D382_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870208.474964
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 2c89785b9b71bccfc3ca7879f9be9ef2
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0156D382_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.677577
+  name_by_user: null
+  name: Bureau-entrée-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0156D382_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870533.211611
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: cc4c33ce086747c264bd0b7e97f2e22f
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01570F52_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.695087
+  name_by_user: null
+  name: Salle de jeux-entrée-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01570F52_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870570.88701
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 10e1575a375b0820ab58094facccde36
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01570F52_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.701993
+  name_by_user: null
+  name: Salle de jeux-entrée-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01570F52_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870710.930027
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 779b1b0e7875cddbef6c830d146071e9
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01037DAE_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.708857
+  name_by_user: null
+  name: Chambre d ami-entrée-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01037DAE_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870739.616197
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: f0aca42a3e3d9231709dedb059b6a5ef
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01037DAE_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.715833
+  name_by_user: null
+  name: Chambre d ami-entrée-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01037DAE_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871046.522446
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 6189004a954fa5ee20bffa0358ecf22b
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01732532_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.724232
+  name_by_user: null
+  name: Couloir du haut-près des chambres
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01732532_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871357.704322
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: d25d21e1a112c559670c321078fca532
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0026AAD7_2
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768988305.661742
+  name_by_user: null
+  name: Chambre du bas-dressing
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0026AAD7_2
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871401.47609
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 5a9048fcdb1a8da9139ddffaa030a8be
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01A39C3A_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.738036
+  name_by_user: null
+  name: Chambre du bas-salle de bain
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01A39C3A_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871559.618133
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: dda80bd41cd20b73207090ae9e014cd2
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x02A00025_1
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.744922
+  name_by_user: null
+  name: Chambre du bas-entrée-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x02A00025_1
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871583.63973
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: c847834d0063c3f70940a147d52c2807
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0156F95E_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.753646
+  name_by_user: null
+  name: Chambre du bas-entrée-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0156F95E_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764879821.35525
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: b6918aca0bf71bf632488fdeb397d732
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x00C53F52_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1765383010.760911
+  name_by_user: null
+  name: Entrée-porte-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x00C53F52_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: escalier
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1763397622.413439
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: a4390fd79301cd7857875a8f50499de1
+  identifiers:
+    - - mqtt
+      - VD_69383
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.820401
+  name_by_user: null
+  name: Escalier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_69383
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764352201.411557
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 01c43b1a8e31054b18b2e66447eebd4a
+  identifiers:
+    - - mqtt
+      - VD_52857
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.825054
+  name_by_user: null
+  name: Bibliothèque
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_52857
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: entree
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764855100.849019
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: c66d7bb5168e80992855a7b3dfb501ba
+  identifiers:
+    - - mqtt
+      - VD_41493
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.831598
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_41493
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764855171.282952
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 1d77a664930e3bcdae852e923402fd5a
+  identifiers:
+    - - mqtt
+      - VD_90278
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.83611
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_90278
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764869290.933756
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 542a46eb6bf0871b70e61447dc11c160
+  identifiers:
+    - - mqtt
+      - VD_28034
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.840668
+  name_by_user: null
+  name: Table
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_28034
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: bureau
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870336.517894
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: de6b01916d1d5242861dad08ac82a753
+  identifiers:
+    - - mqtt
+      - VD_67947
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.845088
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_67947
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: bureau
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870435.913717
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 0203b9a7bd6d9bc7f5b924ac4fdff111
+  identifiers:
+    - - mqtt
+      - VD_17230
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.851062
+  name_by_user: null
+  name: Table
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_17230
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: salle_de_jeu
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870828.116062
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 05ae5e0d7b35cf3d017dc079befc7b89
+  identifiers:
+    - - mqtt
+      - VD_7691
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.855771
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_7691
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: chambre_d_ami
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764870910.365039
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 58db22979210211981ddc5dd23e2d6d2
+  identifiers:
+    - - mqtt
+      - VD_13890
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.860484
+  name_by_user: null
+  name: 'Plafonnier '
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_13890
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: chambre_du_bas
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871755.730007
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 92828b71d9f4a5d070685883fdb5d496
+  identifiers:
+    - - mqtt
+      - VD_98568
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.865102
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_98568
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: salle_de_bain_du_bas
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871852.674534
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: dab5cf9c7a08eb05a8eeacdd1661a1f2
+  identifiers:
+    - - mqtt
+      - VD_98982
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.871182
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_98982
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: chambre_du_bas
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764871897.445485
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: ac5935d88c1dadd41ede6a49dad39c5c
+  identifiers:
+    - - mqtt
+      - VD_20741
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.876384
+  name_by_user: null
+  name: Dressing
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_20741
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: exterieur
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764879962.658525
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 2c8c33992b74de813cd51d578f4e2b52
+  identifiers:
+    - - mqtt
+      - VD_50385
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1765383010.881169
+  name_by_user: null
+  name: Devant
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_50385
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: chambre_d_ami
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755436326.578428
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: dc5c71cc9f135634f0b3e65618d479f9
+  identifiers:
+    - - mqtt
+      - Arexx-11719
+  labels: []
+  manufacturer: Arexx
+  model: Arexx
+  model_id: null
+  modified_at: 1765443204.427861
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: Arexx-11719
+  sw_version: 0.9.0
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764926454.74889
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 7efa9c97715119a309caf98cce3a013f
+  identifiers:
+    - - mqtt
+      - rfx_bridge_000002
+  labels: []
+  manufacturer: RfxCom
+  model: ''
+  model_id: null
+  modified_at: 1765483589.401891
+  name_by_user: null
+  name: Rfxcom bridge
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: rfx_bridge_000002
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755440198.663838
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 0f8fc9256b96f0a48afd4b3810ac5778
+  identifiers:
+    - - mqtt
+      - NEW_DIO_RECEIVER
+  labels: []
+  manufacturer: RfxCom
+  model: ''
+  model_id: null
+  modified_at: 1765483589.619141
+  name_by_user: null
+  name: New Dio Receiver
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: NEW_DIO_RECEIVER
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: arexx_bridge
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755436326.404201
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: d77808ca46b27148a7599525a913b670
+  identifiers:
+    - - mqtt
+      - ArexxBridge_000001
+  labels: []
+  manufacturer: Arexx
+  model: Bridge Arexx
+  model_id: null
+  modified_at: 1768929871.053022
+  name_by_user: AREXX bridge
+  name: ArexxBridge
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: ArexxBridge_000001
+  sw_version: 0.9.0
+  via_device_id: null
+- area_id: arexx_new
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755436326.414361
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 81e1cd780201090552ef3c7c9a42c3c0
+  identifiers:
+    - - mqtt
+      - NEWAREXX
+  labels: []
+  manufacturer: Arexx
+  model: NewArexx
+  model_id: null
+  modified_at: 1765548189.578806
+  name_by_user: null
+  name: New Arexx
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: NEWAREXX
+  sw_version: 0.9.0
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1767949854.469715
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: fe823cd499e44e1c5bdaefd09ffd65e0
+  identifiers:
+    - - mqtt
+      - evoo7_domotique
+  labels: []
+  manufacturer: EVOO7
+  model: Domotic System
+  model_id: null
+  modified_at: 1768495482.141315
+  name_by_user: null
+  name: EVOO7 Domotique
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768566428.330235
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 0a122756edebd56b617d36e9caeecd80
+  identifiers:
+    - - mqtt
+      - '0xbb02'
+  labels: []
+  manufacturer: RFX
+  model: TH9
+  model_id: null
+  modified_at: 1768566428.330453
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: chambre_de_jo
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768566428.827877
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: f7253df511b9ac9e3fc1fee9f343a429
+  identifiers:
+    - - mqtt
+      - '0x0501'
+  labels: []
+  manufacturer: RFX
+  model: TH9
+  model_id: null
+  modified_at: 1768566428.828092
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: linky
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974692.365141
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: d20ae79fd52d1da16d9b4358e988f5ea
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x00158d000638e1ec
+  labels: []
+  manufacturer: LiXee
+  model: Lixee ZLinky
+  model_id: ZLinky_TIC
+  modified_at: 1769004674.139578
+  name_by_user: null
+  name: Linky
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 4001-0017
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768988244.058732
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: f10df5cfcdad686383a6f7b6aa4f6f31
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x017322E6_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768988244.058941
+  name_by_user: null
+  name: Bureau-mur
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x017322E6_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768989456.101552
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: be08fd6554e3f5bbecb4c4c7463f32c8
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0156F0D6_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768989456.101755
+  name_by_user: null
+  name: Salle a manger-escalier-milieu-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0156F0D6_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768989949.423837
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 97c1031460cb6c5bfa7c2f7c887a426a
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0173442A_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768989949.424037
+  name_by_user: null
+  name: Escalier-haut-haut
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0173442A_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768996084.779912
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 7c9f29e1213a338d9ac41824ae79e89e
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01570D5A_12
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768996084.780134
+  name_by_user: null
+  name: Salle a manger-escalier-bas-droit
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01570D5A_12
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1764350195.744377
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 67c6ffc9d5402e4519b57c6fcbad67d0
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x01570892_11
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1768997154.352904
+  name_by_user: null
+  name: Salle a manger-entree-haut-gauche
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x01570892_11
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1768999887.18307
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: e507fbf6dc704971a41a0ca1ebb87d34
+  identifiers:
+    - - mqtt
+      - VD_57661
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1768999887.183291
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_57661
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: salon
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000059.595765
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: cc615e4ca713b04d21b19d2b7da64df7
+  identifiers:
+    - - mqtt
+      - VD_16766
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1769000059.595987
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_16766
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: salon
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000206.195474
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 7c85f2b57fe8599d633921f894a751df
+  identifiers:
+    - - mqtt
+      - VD_97407
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1769000206.195678
+  name_by_user: null
+  name: Lampadaire
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_97407
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000364.965451
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: a4fa252d1d18800801ef198414bc0ba9
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x0196E326_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1769000364.965665
+  name_by_user: null
+  name: Toilettes du bas
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x0196E326_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: exterieur
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000477.915955
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 6be78d147efcce76f9c658fd5697ce00
+  identifiers:
+    - - mqtt
+      - VD_51391
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1769000477.916194
+  name_by_user: null
+  name: Devant
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_51391
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: toilettes_du_bas
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000558.337928
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 23b627edaaa6bd852285020685ec1967
+  identifiers:
+    - - mqtt
+      - VD_60456
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1769000558.33819
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_60456
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: boutons
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000699.529909
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 7961129db6187b8e2e3004e0a4888122
+  identifiers:
+    - - mqtt
+      - lighting2_AC_0x017340CA_10
+  labels: []
+  manufacturer: RfxCom
+  model: lighting2
+  model_id: null
+  modified_at: 1769000699.530147
+  name_by_user: null
+  name: Buanderie
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: lighting2_AC_0x017340CA_10
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: buanderie
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769000738.152532
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: 0fca3fa08c755e14e0f97dc391ace79a
+  identifiers:
+    - - mqtt
+      - VD_21062
+  labels: []
+  manufacturer: RfxCom
+  model: DioReceiver
+  model_id: null
+  modified_at: 1769000738.15274
+  name_by_user: null
+  name: Plafonnier
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: VD_21062
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974687.680397
+  disabled_by: null
+  entry_type: null
+  hw_version: ConBee2/RaspBee2 0x26780700
+  id: f9fccce4af4234a58a9372b521bb0054
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_bridge_0xe0798dfffeb8d15b
+  labels: []
+  manufacturer: Zigbee2MQTT
+  model: Bridge
+  model_id: null
+  modified_at: 1769004672.593116
+  name_by_user: null
+  name: Zigbee2MQTT Bridge
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 2.6.3
+  via_device_id: null
+- area_id: salle_a_manger
+  configuration_url: http://192.168.1.4/
+  config_entries:
+    - 01K92PPFQ7H7PEDVGKHXR5T6DX
+  config_entries_subentries:
+    01K92PPFQ7H7PEDVGKHXR5T6DX:
+      - null
+  connections:
+    - - mac
+      - 84:0d:8e:a9:f9:7b
+  created_at: 1769004674.711501
+  disabled_by: null
+  entry_type: null
+  hw_version: null
+  id: 2c77511a82f0085bdc80718f6ac275e7
+  identifiers: []
+  labels: []
+  manufacturer: Tasmota
+  model: Generic
+  model_id: null
+  modified_at: 1769013902.631277
+  name_by_user: null
+  name: salle a manger--poele
+  primary_config_entry: 01K92PPFQ7H7PEDVGKHXR5T6DX
+  serial_number: null
+  sw_version: 15.1.0
+  via_device_id: null
+- area_id: null
+  configuration_url: https://www.met.no/en
+  config_entries:
+    - 01KFGPY16CZ0C5KM8VDDNH0J91
+  config_entries_subentries:
+    01KFGPY16CZ0C5KM8VDDNH0J91:
+      - null
+  connections: []
+  created_at: 1769013708.364607
+  disabled_by: null
+  entry_type: service
+  hw_version: null
+  id: f8c567fa3cbdd1f06be04020c901f470
+  identifiers:
+    - - met
+      - 01KFGPY16CZ0C5KM8VDDNH0J91
+  labels: []
+  manufacturer: Met.no
+  model: Forecast
+  model_id: null
+  modified_at: 1769013708.364742
+  name_by_user: null
+  name: Forecast
+  primary_config_entry: 01KFGPY16CZ0C5KM8VDDNH0J91
+  serial_number: null
+  sw_version: null
+  via_device_id: null
+- area_id: salle_a_manger
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1755677147.917135
+  disabled_by: null
+  entry_type: null
+  hw_version: '1.0'
+  id: b2a1b56b2b43d36883211c468f38cfb0
+  identifiers:
+    - - mqtt
+      - temperaturehumidity1_NONE_0xBB02
+  labels: []
+  manufacturer: RfxCom
+  model: temperaturehumidity1
+  model_id: null
+  modified_at: 1769073825.251984
+  name_by_user: null
+  name: Baromètre
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: temperaturehumidity1_NONE_0xBB02
+  sw_version: '1.0'
+  via_device_id: null
+- area_id: cuisine
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1757974689.901706
+  disabled_by: null
+  entry_type: null
+  hw_version: '1'
+  id: a31909a5eddd8feb6c23e1c91566679d
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0xa4c13851ba6b3f75
+  labels: []
+  manufacturer: Tuya
+  model: Smart plug (with power monitoring by polling)
+  model_id: TS011F_plug_3
+  modified_at: 1769172319.190771
+  name_by_user: null
+  name: Lave vaisselle-ancien
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: null
+  via_device_id: f9fccce4af4234a58a9372b521bb0054
+- area_id: null
+  configuration_url: null
+  config_entries:
+    - 01K2W2APQM4AFRNNZ6V1VRDPDH
+  config_entries_subentries:
+    01K2W2APQM4AFRNNZ6V1VRDPDH:
+      - null
+  connections: []
+  created_at: 1769178864.962545
+  disabled_by: null
+  entry_type: null
+  hw_version: '2'
+  id: eb0c57ab7a41fef7168ac5e2d216eeab
+  identifiers:
+    - - mqtt
+      - zigbee2mqtt_0x70b3d52b60042567
+  labels: []
+  manufacturer: Tuya
+  model: Smart plug (with power monitoring by polling)
+  model_id: TS011F_plug_3
+  modified_at: 1769178906.060178
+  name_by_user: null
+  name: Lave vaisselle
+  primary_config_entry: 01K2W2APQM4AFRNNZ6V1VRDPDH
+  serial_number: null
+  sw_version: 500+TZSKT31BS102
+  via_device_id: f9fccce4af4234a58a9372b521bb0054

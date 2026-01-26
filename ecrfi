@@ -1,0 +1,9 @@
+cat > client/src/components/plan/objects/sensors/sensor-index.ts << 'EOF'
+// Ce fichier déclenche l'auto-enregistrement de tous les capteurs
+
+import './temperature-sensor';
+import './humidity-sensor';
+import './generic-sensor';
+
+console.log('[SensorIndex] All sensors auto-registered');
+EOF

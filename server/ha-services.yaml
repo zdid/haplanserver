@@ -1,0 +1,2964 @@
+persistent_notification:
+  create:
+    description: ''
+    fields:
+      message:
+        required: true
+        example: Please check your configuration.yaml.
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      title:
+        example: Test notification
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      notification_id:
+        example: 1234
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  dismiss:
+    description: ''
+    fields:
+      notification_id:
+        required: true
+        example: 1234
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  dismiss_all:
+    description: ''
+    fields: {}
+homeassistant:
+  save_persistent_states:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields: {}
+  turn_on:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+  stop:
+    description: ''
+    fields: {}
+  restart:
+    description: ''
+    fields: {}
+  check_config:
+    description: ''
+    fields: {}
+  update_entity:
+    description: ''
+    fields:
+      entity_id:
+        required: true
+        selector:
+          entity:
+            multiple: true
+            reorder: false
+  reload_core_config:
+    description: ''
+    fields: {}
+  set_location:
+    description: ''
+    fields:
+      latitude:
+        required: true
+        example: 32.87336
+        selector:
+          number:
+            mode: box
+            min: -90
+            max: 90
+            step: any
+      longitude:
+        required: true
+        example: 117.22743
+        selector:
+          number:
+            mode: box
+            min: -180
+            max: 180
+            step: any
+      elevation:
+        required: false
+        example: 120
+        selector:
+          number:
+            mode: box
+            step: any
+  reload_custom_templates:
+    description: ''
+    fields: {}
+  reload_config_entry:
+    description: ''
+    fields:
+      entry_id:
+        advanced: true
+        required: false
+        example: 8955375327824e14ba89e4b29cc3ec9a
+        selector:
+          config_entry: {}
+  reload_all:
+    description: ''
+    fields: {}
+system_log:
+  clear:
+    description: ''
+    fields: {}
+  write:
+    description: ''
+    fields:
+      message:
+        required: true
+        example: Something went wrong
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      level:
+        default: error
+        selector:
+          select:
+            options:
+              - debug
+              - info
+              - warning
+              - error
+              - critical
+            translation_key: level
+            custom_value: false
+            sort: false
+            multiple: false
+      logger:
+        example: mycomponent.myplatform
+        selector:
+          text:
+            multiple: false
+            multiline: false
+logger:
+  set_default_level:
+    description: ''
+    fields:
+      level:
+        selector:
+          select:
+            options:
+              - debug
+              - info
+              - warning
+              - error
+              - fatal
+              - critical
+            translation_key: level
+            custom_value: false
+            sort: false
+            multiple: false
+  set_level:
+    description: ''
+    fields: {}
+frontend:
+  set_theme:
+    description: ''
+    fields:
+      name:
+        required: true
+        example: default
+        selector:
+          theme:
+            include_default: true
+      mode:
+        default: light
+        selector:
+          select:
+            options:
+              - dark
+              - light
+            translation_key: mode
+            custom_value: false
+            sort: false
+            multiple: false
+  reload_themes:
+    description: ''
+    fields: {}
+recorder:
+  purge:
+    description: ''
+    fields:
+      keep_days:
+        selector:
+          number:
+            min: 0
+            max: 365
+            unit_of_measurement: days
+            step: 1
+            mode: slider
+      repack:
+        default: false
+        selector:
+          boolean: {}
+      apply_filter:
+        default: false
+        selector:
+          boolean: {}
+  purge_entities:
+    description: ''
+    fields:
+      entity_id:
+        required: false
+        selector:
+          entity:
+            multiple: true
+            reorder: false
+      domains:
+        example: sun
+        required: false
+        selector:
+          object:
+            multiple: false
+      entity_globs:
+        example: domain*.object_id*
+        required: false
+        selector:
+          object:
+            multiple: false
+      keep_days:
+        default: 0
+        selector:
+          number:
+            min: 0
+            max: 365
+            unit_of_measurement: days
+            step: 1
+            mode: slider
+  enable:
+    description: ''
+    fields: {}
+  disable:
+    description: ''
+    fields: {}
+  get_statistics:
+    description: ''
+    fields:
+      start_time:
+        required: true
+        example: '2025-01-01 00:00:00'
+        selector:
+          datetime: {}
+      end_time:
+        required: false
+        example: '2025-01-02 00:00:00'
+        selector:
+          datetime: {}
+      statistic_ids:
+        required: true
+        example:
+          - sensor.energy_consumption
+          - sensor.temperature
+        selector:
+          statistic:
+            multiple: true
+      period:
+        required: true
+        example: hour
+        selector:
+          select:
+            options:
+              - 5minute
+              - hour
+              - day
+              - week
+              - month
+            custom_value: false
+            sort: false
+            multiple: false
+      types:
+        required: true
+        example:
+          - mean
+          - sum
+        selector:
+          select:
+            options:
+              - change
+              - last_reset
+              - max
+              - mean
+              - min
+              - state
+              - sum
+            multiple: true
+            custom_value: false
+            sort: false
+      units:
+        required: false
+        example:
+          energy: kWh
+          temperature: °C
+        selector:
+          object:
+            multiple: false
+backup:
+  create:
+    description: ''
+    fields: {}
+  create_automatic:
+    description: ''
+    fields: {}
+ffmpeg:
+  start:
+    description: ''
+    fields:
+      entity_id:
+        selector:
+          entity:
+            integration: ffmpeg
+            domain:
+              - binary_sensor
+            reorder: false
+            multiple: false
+  stop:
+    description: ''
+    fields:
+      entity_id:
+        selector:
+          entity:
+            integration: ffmpeg
+            domain:
+              - binary_sensor
+            reorder: false
+            multiple: false
+  restart:
+    description: ''
+    fields:
+      entity_id:
+        selector:
+          entity:
+            integration: ffmpeg
+            domain:
+              - binary_sensor
+            reorder: false
+            multiple: false
+tts:
+  speak:
+    description: ''
+    fields:
+      media_player_entity_id:
+        required: true
+        selector:
+          entity:
+            domain:
+              - media_player
+            reorder: false
+            multiple: false
+      message:
+        example: My name is hanna
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      cache:
+        default: true
+        selector:
+          boolean: {}
+      language:
+        example: ru
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      options:
+        advanced: true
+        example: platform specific
+        selector:
+          object:
+            multiple: false
+  clear_cache:
+    description: ''
+    fields: {}
+  cloud_say:
+    description: Say something using text-to-speech on a media player with cloud.
+    fields:
+      entity_id:
+        required: true
+        selector:
+          entity:
+            domain: media_player
+      message:
+        example: My name is hanna
+        required: true
+        selector:
+          text: null
+      cache:
+        default: false
+        selector:
+          boolean: null
+      language:
+        example: ru
+        selector:
+          text: null
+      options:
+        advanced: true
+        example: platform specific
+        selector:
+          object: null
+conversation:
+  process:
+    description: ''
+    fields:
+      text:
+        example: Turn all lights on
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      language:
+        example: NL
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      agent_id:
+        example: homeassistant
+        selector:
+          conversation_agent: {}
+      conversation_id:
+        example: my_conversation_1
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  reload:
+    description: ''
+    fields:
+      language:
+        example: NL
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      agent_id:
+        example: homeassistant
+        selector:
+          conversation_agent: {}
+cloud:
+  remote_connect:
+    description: ''
+    fields: {}
+  remote_disconnect:
+    description: ''
+    fields: {}
+scene:
+  turn_on:
+    description: ''
+    fields:
+      transition:
+        selector:
+          number:
+            min: 0
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+  reload:
+    description: ''
+    fields: {}
+  apply:
+    description: ''
+    fields:
+      entities:
+        required: true
+        example: |
+          light.kitchen: "on"
+          light.ceiling:
+            state: "on"
+            brightness: 80
+        selector:
+          object:
+            multiple: false
+      transition:
+        selector:
+          number:
+            min: 0
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+  create:
+    description: ''
+    fields:
+      scene_id:
+        required: true
+        example: all_lights
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      entities:
+        advanced: true
+        example: |
+          light.tv_back_light: "on"
+          light.ceiling:
+            state: "on"
+            brightness: 200
+        selector:
+          object:
+            multiple: false
+      snapshot_entities:
+        example: |
+          - light.ceiling
+          - light.kitchen
+        selector:
+          entity:
+            multiple: true
+            reorder: false
+  delete:
+    description: ''
+    fields: {}
+switch:
+  turn_off:
+    description: ''
+    fields: {}
+  turn_on:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+camera:
+  enable_motion_detection:
+    description: ''
+    fields: {}
+  disable_motion_detection:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields: {}
+  turn_on:
+    description: ''
+    fields: {}
+  snapshot:
+    description: ''
+    fields:
+      filename:
+        required: true
+        example: /tmp/snapshot_{{ entity_id.name }}.jpg
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  play_stream:
+    description: ''
+    fields:
+      media_player:
+        required: true
+        selector:
+          entity:
+            domain:
+              - media_player
+            reorder: false
+            multiple: false
+      format:
+        default: hls
+        selector:
+          select:
+            options:
+              - hls
+            custom_value: false
+            sort: false
+            multiple: false
+  record:
+    description: ''
+    fields:
+      filename:
+        required: true
+        example: /tmp/snapshot_{{ entity_id.name }}.mp4
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      duration:
+        default: 30
+        selector:
+          number:
+            min: 1
+            max: 3600
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+      lookback:
+        default: 0
+        selector:
+          number:
+            min: 0
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+logbook:
+  log:
+    description: ''
+    fields:
+      name:
+        required: true
+        example: Kitchen
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      message:
+        required: true
+        example: is being used
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      entity_id:
+        selector:
+          entity:
+            reorder: false
+            multiple: false
+      domain:
+        example: light
+        selector:
+          text:
+            multiple: false
+            multiline: false
+input_select:
+  reload:
+    description: ''
+    fields: {}
+  select_first:
+    description: ''
+    fields: {}
+  select_last:
+    description: ''
+    fields: {}
+  select_next:
+    description: ''
+    fields:
+      cycle:
+        default: true
+        selector:
+          boolean: {}
+  select_option:
+    description: ''
+    fields:
+      option:
+        required: true
+        example: '"Item A"'
+        selector:
+          state:
+            hide_states:
+              - unavailable
+              - unknown
+            multiple: false
+  select_previous:
+    description: ''
+    fields:
+      cycle:
+        default: true
+        selector:
+          boolean: {}
+  set_options:
+    description: ''
+    fields:
+      options:
+        required: true
+        example: '["Item A", "Item B", "Item C"]'
+        selector:
+          text:
+            multiple: true
+            multiline: false
+zone:
+  reload:
+    description: ''
+    fields: {}
+input_boolean:
+  reload:
+    description: ''
+    fields: {}
+  turn_on:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+timer:
+  reload:
+    description: ''
+    fields: {}
+  start:
+    description: ''
+    fields:
+      duration:
+        example: 00:01:00 or 60
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  pause:
+    description: ''
+    fields: {}
+  cancel:
+    description: ''
+    fields: {}
+  finish:
+    description: ''
+    fields: {}
+  change:
+    description: ''
+    fields:
+      duration:
+        default: 0
+        required: true
+        example: 00:01:00, 60 or -60
+        selector:
+          text:
+            multiple: false
+            multiline: false
+input_number:
+  reload:
+    description: ''
+    fields: {}
+  set_value:
+    description: ''
+    fields:
+      value:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 9223372036854776000
+            step: 0.001
+            mode: box
+  increment:
+    description: ''
+    fields: {}
+  decrement:
+    description: ''
+    fields: {}
+script:
+  reload:
+    description: ''
+    fields: {}
+  turn_on:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+input_button:
+  reload:
+    description: ''
+    fields: {}
+  press:
+    description: ''
+    fields: {}
+person:
+  reload:
+    description: ''
+    fields: {}
+assist_satellite:
+  announce:
+    description: ''
+    fields:
+      message:
+        required: false
+        example: Time to wake up!
+        default: ''
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      media_id:
+        required: false
+        selector:
+          media:
+            accept:
+              - audio/*
+            multiple: false
+      preannounce:
+        required: false
+        default: true
+        selector:
+          boolean: {}
+      preannounce_media_id:
+        required: false
+        selector:
+          media:
+            accept:
+              - audio/*
+            multiple: false
+  start_conversation:
+    description: ''
+    fields:
+      start_message:
+        required: false
+        example: You left the lights on in the living room. Turn them off?
+        default: ''
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      start_media_id:
+        required: false
+        selector:
+          media:
+            accept:
+              - audio/*
+            multiple: false
+      extra_system_prompt:
+        required: false
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      preannounce:
+        required: false
+        default: true
+        selector:
+          boolean: {}
+      preannounce_media_id:
+        required: false
+        selector:
+          media:
+            accept:
+              - audio/*
+            multiple: false
+  ask_question:
+    description: ''
+    fields:
+      entity_id:
+        required: true
+        selector:
+          entity:
+            filter:
+              - domain:
+                  - assist_satellite
+                supported_features:
+                  - 2
+            reorder: false
+            multiple: false
+      question:
+        required: false
+        example: What kind of music would you like to play?
+        default: ''
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      question_media_id:
+        required: false
+        selector:
+          media:
+            accept:
+              - audio/*
+            multiple: false
+      preannounce:
+        required: false
+        default: true
+        selector:
+          boolean: {}
+      preannounce_media_id:
+        required: false
+        selector:
+          media:
+            accept:
+              - audio/*
+            multiple: false
+      answers:
+        required: false
+        selector:
+          object:
+            label_field: sentences
+            description_field: id
+            multiple: true
+            translation_key: answers
+            fields:
+              id:
+                required: true
+                selector:
+                  text:
+                    multiple: false
+                    multiline: false
+              sentences:
+                required: true
+                selector:
+                  text:
+                    multiple: true
+                    multiline: false
+automation:
+  trigger:
+    description: ''
+    fields:
+      skip_condition:
+        default: true
+        selector:
+          boolean: {}
+  toggle:
+    description: ''
+    fields: {}
+  turn_on:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields:
+      stop_actions:
+        default: true
+        selector:
+          boolean: {}
+  reload:
+    description: ''
+    fields: {}
+schedule:
+  reload:
+    description: ''
+    fields: {}
+  get_schedule:
+    description: ''
+    fields: {}
+counter:
+  increment:
+    description: ''
+    fields: {}
+  decrement:
+    description: ''
+    fields: {}
+  reset:
+    description: ''
+    fields: {}
+  set_value:
+    description: ''
+    fields:
+      value:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 9223372036854776000
+            mode: box
+            step: 1
+shopping_list:
+  add_item:
+    description: ''
+    fields:
+      name:
+        required: true
+        example: Beer
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  remove_item:
+    description: ''
+    fields:
+      name:
+        required: true
+        example: Beer
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  complete_item:
+    description: ''
+    fields:
+      name:
+        required: true
+        example: Beer
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  incomplete_item:
+    description: ''
+    fields:
+      name:
+        example: Beer
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  complete_all:
+    description: ''
+    fields: {}
+  incomplete_all:
+    description: ''
+    fields: {}
+  clear_completed_items:
+    description: ''
+    fields: {}
+  sort:
+    description: ''
+    fields:
+      reverse:
+        default: false
+        selector:
+          boolean: {}
+cast:
+  show_lovelace_view:
+    description: ''
+    fields:
+      entity_id:
+        required: true
+        selector:
+          entity:
+            integration: cast
+            domain:
+              - media_player
+            reorder: false
+            multiple: false
+      dashboard_path:
+        example: lovelace-cast
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      view_path:
+        required: true
+        example: downstairs
+        selector:
+          text:
+            multiple: false
+            multiline: false
+mqtt:
+  publish:
+    description: ''
+    fields:
+      topic:
+        required: true
+        example: /homeassistant/hello
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      payload:
+        example: The temperature is {{ states('sensor.temperature') }}
+        selector:
+          template: {}
+      evaluate_payload:
+        advanced: true
+        default: false
+        selector:
+          boolean: {}
+      qos:
+        advanced: true
+        default: 0
+        selector:
+          select:
+            options:
+              - '0'
+              - '1'
+              - '2'
+            custom_value: false
+            sort: false
+            multiple: false
+      retain:
+        default: false
+        selector:
+          boolean: {}
+  dump:
+    description: ''
+    fields:
+      topic:
+        example: OpenZWave/#
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      duration:
+        default: 5
+        selector:
+          number:
+            min: 1
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+  reload:
+    description: ''
+    fields: {}
+file:
+  read_file:
+    description: ''
+    fields:
+      file_name:
+        example: www/my_file.json
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      file_encoding:
+        example: JSON
+        selector:
+          select:
+            options:
+              - JSON
+              - YAML
+            custom_value: false
+            sort: false
+            multiple: false
+input_datetime:
+  reload:
+    description: ''
+    fields: {}
+  set_datetime:
+    description: ''
+    fields:
+      date:
+        example: '"2019-04-20"'
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      time:
+        example: '"05:04:20"'
+        selector:
+          time: {}
+      datetime:
+        example: '"2019-04-20 05:04:20"'
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      timestamp:
+        selector:
+          number:
+            min: 0
+            max: 9223372036854776000
+            mode: box
+            step: 1
+input_text:
+  reload:
+    description: ''
+    fields: {}
+  set_value:
+    description: ''
+    fields:
+      value:
+        required: true
+        example: This is an example text
+        selector:
+          text:
+            multiple: false
+            multiline: false
+google_generative_ai_conversation:
+  generate_content:
+    description: ''
+    fields:
+      prompt:
+        required: true
+        selector:
+          text:
+            multiline: true
+            multiple: false
+      filenames:
+        required: false
+        selector:
+          text:
+            multiple: true
+            multiline: false
+weather:
+  get_forecasts:
+    description: ''
+    fields:
+      type:
+        required: true
+        selector:
+          select:
+            options:
+              - daily
+              - hourly
+              - twice_daily
+            translation_key: forecast_type
+            custom_value: false
+            sort: false
+            multiple: false
+todo:
+  add_item:
+    description: ''
+    fields:
+      item:
+        required: true
+        example: Submit income tax return
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      due_date:
+        filter:
+          supported_features:
+            - 16
+        example: '2023-11-17'
+        selector:
+          date: {}
+      due_datetime:
+        filter:
+          supported_features:
+            - 32
+        example: '2023-11-17 13:30:00'
+        selector:
+          datetime: {}
+      description:
+        filter:
+          supported_features:
+            - 64
+        example: A more complete description of the to-do item than that provided by the summary.
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  update_item:
+    description: ''
+    fields:
+      item:
+        required: true
+        example: Submit income tax return
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      rename:
+        example: Something else
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      status:
+        example: needs_action
+        selector:
+          select:
+            translation_key: status
+            options:
+              - needs_action
+              - completed
+            custom_value: false
+            sort: false
+            multiple: false
+      due_date:
+        filter:
+          supported_features:
+            - 16
+        example: '2023-11-17'
+        selector:
+          date: {}
+      due_datetime:
+        filter:
+          supported_features:
+            - 32
+        example: '2023-11-17 13:30:00'
+        selector:
+          datetime: {}
+      description:
+        filter:
+          supported_features:
+            - 64
+        example: A more complete description of the to-do item than that provided by the summary.
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  remove_item:
+    description: ''
+    fields:
+      item:
+        required: true
+        example: Submit income tax return
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  get_items:
+    description: ''
+    fields:
+      status:
+        example: needs_action
+        default: needs_action
+        selector:
+          select:
+            translation_key: status
+            options:
+              - needs_action
+              - completed
+            multiple: true
+            custom_value: false
+            sort: false
+  remove_completed_items:
+    description: ''
+    fields: {}
+media_player:
+  turn_on:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+  volume_up:
+    description: ''
+    fields: {}
+  volume_down:
+    description: ''
+    fields: {}
+  media_play_pause:
+    description: ''
+    fields: {}
+  media_play:
+    description: ''
+    fields: {}
+  media_pause:
+    description: ''
+    fields: {}
+  media_stop:
+    description: ''
+    fields: {}
+  media_next_track:
+    description: ''
+    fields: {}
+  media_previous_track:
+    description: ''
+    fields: {}
+  clear_playlist:
+    description: ''
+    fields: {}
+  volume_set:
+    description: ''
+    fields:
+      volume_level:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 1
+            step: 0.01
+            mode: slider
+  volume_mute:
+    description: ''
+    fields:
+      is_volume_muted:
+        required: true
+        selector:
+          boolean: {}
+  media_seek:
+    description: ''
+    fields:
+      seek_position:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 9223372036854776000
+            step: 0.01
+            mode: box
+  join:
+    description: ''
+    fields:
+      group_members:
+        required: true
+        example: |
+          - media_player.multiroom_player2
+          - media_player.multiroom_player3
+        selector:
+          entity:
+            multiple: true
+            domain:
+              - media_player
+            reorder: false
+  select_source:
+    description: ''
+    fields:
+      source:
+        required: true
+        example: video1
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  select_sound_mode:
+    description: ''
+    fields:
+      sound_mode:
+        example: Music
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  play_media:
+    description: ''
+    fields:
+      media:
+        required: true
+        selector:
+          media:
+            multiple: false
+        example: '{"media_content_id": "https://home-assistant.io/images/cast/splash.png", "media_content_type": "music"}'
+      enqueue:
+        filter:
+          supported_features:
+            - 2097152
+        required: false
+        selector:
+          select:
+            options:
+              - play
+              - next
+              - add
+              - replace
+            translation_key: enqueue
+            custom_value: false
+            sort: false
+            multiple: false
+      announce:
+        filter:
+          supported_features:
+            - 1048576
+        required: false
+        example: 'true'
+        selector:
+          boolean: {}
+  browse_media:
+    description: ''
+    fields:
+      media_content_type:
+        required: false
+        example: music
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      media_content_id:
+        required: false
+        example: A:ALBUMARTIST/Beatles
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  search_media:
+    description: ''
+    fields:
+      search_query:
+        required: true
+        example: Beatles
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      media_content_type:
+        required: false
+        example: music
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      media_content_id:
+        required: false
+        example: A:ALBUMARTIST/Beatles
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      media_filter_classes:
+        required: false
+        example:
+          - album
+          - artist
+        selector:
+          text:
+            multiple: true
+            multiline: false
+  shuffle_set:
+    description: ''
+    fields:
+      shuffle:
+        required: true
+        selector:
+          boolean: {}
+  unjoin:
+    description: ''
+    fields: {}
+  repeat_set:
+    description: ''
+    fields:
+      repeat:
+        required: true
+        selector:
+          select:
+            options:
+              - 'off'
+              - all
+              - one
+            translation_key: repeat
+            custom_value: false
+            sort: false
+            multiple: false
+notify:
+  send_message:
+    description: ''
+    fields:
+      message:
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      title:
+        required: false
+        selector:
+          text:
+            multiple: false
+            multiline: false
+        filter:
+          supported_features:
+            - 1
+  persistent_notification:
+    description: ''
+    fields:
+      message:
+        required: true
+        example: The garage door has been open for 10 minutes.
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      title:
+        example: Your Garage Door Friend
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      data:
+        example: platform specific
+        selector:
+          object:
+            multiple: false
+  mobile_app_sm_g975f:
+    description: Sends a notification message using the mobile_app_sm_g975f integration.
+    fields:
+      message:
+        required: true
+        example: The garage door has been open for 10 minutes.
+        selector:
+          text: null
+      title:
+        example: Your Garage Door Friend
+        selector:
+          text: null
+      target:
+        example: platform specific
+        selector:
+          object: null
+      data:
+        example: platform specific
+        selector:
+          object: null
+  mobile_app_sm_g970f:
+    description: Sends a notification message using the mobile_app_sm_g970f integration.
+    fields:
+      message:
+        required: true
+        example: The garage door has been open for 10 minutes.
+        selector:
+          text: null
+      title:
+        example: Your Garage Door Friend
+        selector:
+          text: null
+      target:
+        example: platform specific
+        selector:
+          object: null
+      data:
+        example: platform specific
+        selector:
+          object: null
+  notify:
+    description: Sends a notification message using the notify service.
+    fields:
+      message:
+        required: true
+        example: The garage door has been open for 10 minutes.
+        selector:
+          text: null
+      title:
+        example: Your Garage Door Friend
+        selector:
+          text: null
+      target:
+        example: platform specific
+        selector:
+          object: null
+      data:
+        example: platform specific
+        selector:
+          object: null
+device_tracker:
+  see:
+    description: ''
+    fields:
+      mac:
+        example: FF:FF:FF:FF:FF:FF
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      dev_id:
+        example: phonedave
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      host_name:
+        example: Dave
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      location_name:
+        example: home
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      gps:
+        example: '[51.509802, -0.086692]'
+        selector:
+          object:
+            multiple: false
+      gps_accuracy:
+        selector:
+          number:
+            min: 0
+            mode: box
+            unit_of_measurement: m
+            step: 1
+      battery:
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+climate:
+  turn_on:
+    description: ''
+    fields: {}
+  turn_off:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+  set_hvac_mode:
+    description: ''
+    fields:
+      hvac_mode:
+        selector:
+          state:
+            hide_states:
+              - unavailable
+              - unknown
+            multiple: false
+  set_preset_mode:
+    description: ''
+    fields:
+      preset_mode:
+        required: true
+        example: away
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  set_temperature:
+    description: ''
+    fields:
+      temperature:
+        filter:
+          supported_features:
+            - 1
+        selector:
+          number:
+            min: 0
+            max: 250
+            step: 0.1
+            mode: box
+      target_temp_high:
+        filter:
+          supported_features:
+            - 2
+        advanced: true
+        selector:
+          number:
+            min: 0
+            max: 250
+            step: 0.1
+            mode: box
+      target_temp_low:
+        filter:
+          supported_features:
+            - 2
+        advanced: true
+        selector:
+          number:
+            min: 0
+            max: 250
+            step: 0.1
+            mode: box
+      hvac_mode:
+        selector:
+          select:
+            options:
+              - 'off'
+              - auto
+              - cool
+              - dry
+              - fan_only
+              - heat_cool
+              - heat
+            translation_key: hvac_mode
+            custom_value: false
+            sort: false
+            multiple: false
+  set_humidity:
+    description: ''
+    fields:
+      humidity:
+        required: true
+        selector:
+          number:
+            min: 30
+            max: 99
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+  set_fan_mode:
+    description: ''
+    fields:
+      fan_mode:
+        required: true
+        example: low
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  set_swing_mode:
+    description: ''
+    fields:
+      swing_mode:
+        required: true
+        example: 'on'
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  set_swing_horizontal_mode:
+    description: ''
+    fields:
+      swing_horizontal_mode:
+        required: true
+        example: 'on'
+        selector:
+          text:
+            multiple: false
+            multiline: false
+update:
+  install:
+    description: ''
+    fields:
+      version:
+        required: false
+        example: 1.0.0
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      backup:
+        filter:
+          supported_features:
+            - 8
+        required: false
+        selector:
+          boolean: {}
+  skip:
+    description: ''
+    fields: {}
+  clear_skipped:
+    description: ''
+    fields: {}
+ai_task:
+  generate_data:
+    description: ''
+    fields:
+      task_name:
+        example: home summary
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      instructions:
+        example: Generate a funny notification that the garage door was left open
+        required: true
+        selector:
+          text:
+            multiline: true
+            multiple: false
+      entity_id:
+        required: false
+        selector:
+          entity:
+            filter:
+              - domain:
+                  - ai_task
+                supported_features:
+                  - 1
+            reorder: false
+            multiple: false
+      structure:
+        required: false
+        example: '{ "name": { "selector": { "text": }, "description": "Name of the user", "required": "True" } } }, "age": { "selector": { "number": }, "description": "Age of the user" } }'
+        selector:
+          object:
+            multiple: false
+      attachments:
+        required: false
+        selector:
+          media:
+            accept:
+              - '*'
+            multiple: true
+  generate_image:
+    description: ''
+    fields:
+      task_name:
+        example: picture of a dog
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      instructions:
+        example: Generate a high quality square image of a dog on transparent background
+        required: true
+        selector:
+          text:
+            multiline: true
+            multiple: false
+      entity_id:
+        required: true
+        selector:
+          entity:
+            filter:
+              - domain:
+                  - ai_task
+                supported_features:
+                  - 4
+            reorder: false
+            multiple: false
+      attachments:
+        required: false
+        selector:
+          media:
+            accept:
+              - '*'
+            multiple: true
+text:
+  set_value:
+    description: ''
+    fields:
+      value:
+        required: true
+        example: Hello world!
+        selector:
+          text:
+            multiple: false
+            multiline: false
+button:
+  press:
+    description: ''
+    fields: {}
+select:
+  select_first:
+    description: ''
+    fields: {}
+  select_last:
+    description: ''
+    fields: {}
+  select_next:
+    description: ''
+    fields:
+      cycle:
+        default: true
+        selector:
+          boolean: {}
+  select_option:
+    description: ''
+    fields:
+      option:
+        required: true
+        example: '"Item A"'
+        selector:
+          state:
+            hide_states:
+              - unavailable
+              - unknown
+            multiple: false
+  select_previous:
+    description: ''
+    fields:
+      cycle:
+        default: true
+        selector:
+          boolean: {}
+light:
+  turn_on:
+    description: ''
+    fields:
+      transition:
+        filter:
+          supported_features:
+            - 32
+        selector:
+          number:
+            min: 0
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+      rgb_color:
+        filter:
+          attribute:
+            supported_color_modes:
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        example: '[255, 100, 100]'
+        selector:
+          color_rgb: {}
+      color_temp_kelvin:
+        filter:
+          attribute:
+            supported_color_modes:
+              - color_temp
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        selector:
+          color_temp:
+            unit: kelvin
+            min: 2000
+            max: 6500
+      brightness_pct:
+        filter:
+          attribute:
+            supported_color_modes:
+              - brightness
+              - color_temp
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+      brightness_step_pct:
+        filter:
+          attribute:
+            supported_color_modes:
+              - brightness
+              - color_temp
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        selector:
+          number:
+            min: -100
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+      effect:
+        filter:
+          supported_features:
+            - 4
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      advanced_fields:
+        collapsed: true
+        fields:
+          rgbw_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[255, 100, 100, 50]'
+            selector:
+              object:
+                multiple: false
+          rgbww_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[255, 100, 100, 50, 70]'
+            selector:
+              object:
+                multiple: false
+          color_name:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              select:
+                translation_key: color_name
+                options:
+                  - homeassistant
+                  - aliceblue
+                  - antiquewhite
+                  - aqua
+                  - aquamarine
+                  - azure
+                  - beige
+                  - bisque
+                  - blanchedalmond
+                  - blue
+                  - blueviolet
+                  - brown
+                  - burlywood
+                  - cadetblue
+                  - chartreuse
+                  - chocolate
+                  - coral
+                  - cornflowerblue
+                  - cornsilk
+                  - crimson
+                  - cyan
+                  - darkblue
+                  - darkcyan
+                  - darkgoldenrod
+                  - darkgray
+                  - darkgreen
+                  - darkgrey
+                  - darkkhaki
+                  - darkmagenta
+                  - darkolivegreen
+                  - darkorange
+                  - darkorchid
+                  - darkred
+                  - darksalmon
+                  - darkseagreen
+                  - darkslateblue
+                  - darkslategray
+                  - darkslategrey
+                  - darkturquoise
+                  - darkviolet
+                  - deeppink
+                  - deepskyblue
+                  - dimgray
+                  - dimgrey
+                  - dodgerblue
+                  - firebrick
+                  - floralwhite
+                  - forestgreen
+                  - fuchsia
+                  - gainsboro
+                  - ghostwhite
+                  - gold
+                  - goldenrod
+                  - gray
+                  - green
+                  - greenyellow
+                  - grey
+                  - honeydew
+                  - hotpink
+                  - indianred
+                  - indigo
+                  - ivory
+                  - khaki
+                  - lavender
+                  - lavenderblush
+                  - lawngreen
+                  - lemonchiffon
+                  - lightblue
+                  - lightcoral
+                  - lightcyan
+                  - lightgoldenrodyellow
+                  - lightgray
+                  - lightgreen
+                  - lightgrey
+                  - lightpink
+                  - lightsalmon
+                  - lightseagreen
+                  - lightskyblue
+                  - lightslategray
+                  - lightslategrey
+                  - lightsteelblue
+                  - lightyellow
+                  - lime
+                  - limegreen
+                  - linen
+                  - magenta
+                  - maroon
+                  - mediumaquamarine
+                  - mediumblue
+                  - mediumorchid
+                  - mediumpurple
+                  - mediumseagreen
+                  - mediumslateblue
+                  - mediumspringgreen
+                  - mediumturquoise
+                  - mediumvioletred
+                  - midnightblue
+                  - mintcream
+                  - mistyrose
+                  - moccasin
+                  - navajowhite
+                  - navy
+                  - navyblue
+                  - oldlace
+                  - olive
+                  - olivedrab
+                  - orange
+                  - orangered
+                  - orchid
+                  - palegoldenrod
+                  - palegreen
+                  - paleturquoise
+                  - palevioletred
+                  - papayawhip
+                  - peachpuff
+                  - peru
+                  - pink
+                  - plum
+                  - powderblue
+                  - purple
+                  - red
+                  - rosybrown
+                  - royalblue
+                  - saddlebrown
+                  - salmon
+                  - sandybrown
+                  - seagreen
+                  - seashell
+                  - sienna
+                  - silver
+                  - skyblue
+                  - slateblue
+                  - slategray
+                  - slategrey
+                  - snow
+                  - springgreen
+                  - steelblue
+                  - tan
+                  - teal
+                  - thistle
+                  - tomato
+                  - turquoise
+                  - violet
+                  - wheat
+                  - white
+                  - whitesmoke
+                  - yellow
+                  - yellowgreen
+                custom_value: false
+                sort: false
+                multiple: false
+          hs_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[300, 70]'
+            selector:
+              object:
+                multiple: false
+          xy_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[0.52, 0.43]'
+            selector:
+              object:
+                multiple: false
+          color_temp:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - color_temp
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              color_temp:
+                unit: mired
+                min: 153
+                max: 500
+          brightness:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - brightness
+                  - color_temp
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              number:
+                min: 0
+                max: 255
+                step: 1
+                mode: slider
+          brightness_step:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - brightness
+                  - color_temp
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              number:
+                min: -225
+                max: 255
+                step: 1
+                mode: slider
+          white:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - white
+            selector:
+              constant:
+                value: true
+                label: Enabled
+          profile:
+            example: relax
+            selector:
+              text:
+                multiple: false
+                multiline: false
+          flash:
+            filter:
+              supported_features:
+                - 8
+            selector:
+              select:
+                translation_key: flash
+                options:
+                  - long
+                  - short
+                custom_value: false
+                sort: false
+                multiple: false
+  turn_off:
+    description: ''
+    fields:
+      transition:
+        filter:
+          supported_features:
+            - 32
+        selector:
+          number:
+            min: 0
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+      advanced_fields:
+        collapsed: true
+        fields:
+          flash:
+            filter:
+              supported_features:
+                - 8
+            selector:
+              select:
+                translation_key: flash
+                options:
+                  - long
+                  - short
+                custom_value: false
+                sort: false
+                multiple: false
+  toggle:
+    description: ''
+    fields:
+      transition:
+        filter:
+          supported_features:
+            - 32
+        selector:
+          number:
+            min: 0
+            max: 300
+            unit_of_measurement: seconds
+            step: 1
+            mode: slider
+      rgb_color:
+        filter:
+          attribute:
+            supported_color_modes:
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        example: '[255, 100, 100]'
+        selector:
+          color_rgb: {}
+      color_temp_kelvin:
+        filter:
+          attribute:
+            supported_color_modes:
+              - color_temp
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        selector:
+          color_temp:
+            unit: kelvin
+            min: 2000
+            max: 6500
+      brightness_pct:
+        filter:
+          attribute:
+            supported_color_modes:
+              - brightness
+              - color_temp
+              - hs
+              - xy
+              - rgb
+              - rgbw
+              - rgbww
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+      effect:
+        filter:
+          supported_features:
+            - 4
+        selector:
+          text:
+            multiple: false
+            multiline: false
+      advanced_fields:
+        collapsed: true
+        fields:
+          rgbw_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[255, 100, 100, 50]'
+            selector:
+              object:
+                multiple: false
+          rgbww_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[255, 100, 100, 50, 70]'
+            selector:
+              object:
+                multiple: false
+          color_name:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              select:
+                translation_key: color_name
+                options:
+                  - homeassistant
+                  - aliceblue
+                  - antiquewhite
+                  - aqua
+                  - aquamarine
+                  - azure
+                  - beige
+                  - bisque
+                  - blanchedalmond
+                  - blue
+                  - blueviolet
+                  - brown
+                  - burlywood
+                  - cadetblue
+                  - chartreuse
+                  - chocolate
+                  - coral
+                  - cornflowerblue
+                  - cornsilk
+                  - crimson
+                  - cyan
+                  - darkblue
+                  - darkcyan
+                  - darkgoldenrod
+                  - darkgray
+                  - darkgreen
+                  - darkgrey
+                  - darkkhaki
+                  - darkmagenta
+                  - darkolivegreen
+                  - darkorange
+                  - darkorchid
+                  - darkred
+                  - darksalmon
+                  - darkseagreen
+                  - darkslateblue
+                  - darkslategray
+                  - darkslategrey
+                  - darkturquoise
+                  - darkviolet
+                  - deeppink
+                  - deepskyblue
+                  - dimgray
+                  - dimgrey
+                  - dodgerblue
+                  - firebrick
+                  - floralwhite
+                  - forestgreen
+                  - fuchsia
+                  - gainsboro
+                  - ghostwhite
+                  - gold
+                  - goldenrod
+                  - gray
+                  - green
+                  - greenyellow
+                  - grey
+                  - honeydew
+                  - hotpink
+                  - indianred
+                  - indigo
+                  - ivory
+                  - khaki
+                  - lavender
+                  - lavenderblush
+                  - lawngreen
+                  - lemonchiffon
+                  - lightblue
+                  - lightcoral
+                  - lightcyan
+                  - lightgoldenrodyellow
+                  - lightgray
+                  - lightgreen
+                  - lightgrey
+                  - lightpink
+                  - lightsalmon
+                  - lightseagreen
+                  - lightskyblue
+                  - lightslategray
+                  - lightslategrey
+                  - lightsteelblue
+                  - lightyellow
+                  - lime
+                  - limegreen
+                  - linen
+                  - magenta
+                  - maroon
+                  - mediumaquamarine
+                  - mediumblue
+                  - mediumorchid
+                  - mediumpurple
+                  - mediumseagreen
+                  - mediumslateblue
+                  - mediumspringgreen
+                  - mediumturquoise
+                  - mediumvioletred
+                  - midnightblue
+                  - mintcream
+                  - mistyrose
+                  - moccasin
+                  - navajowhite
+                  - navy
+                  - navyblue
+                  - oldlace
+                  - olive
+                  - olivedrab
+                  - orange
+                  - orangered
+                  - orchid
+                  - palegoldenrod
+                  - palegreen
+                  - paleturquoise
+                  - palevioletred
+                  - papayawhip
+                  - peachpuff
+                  - peru
+                  - pink
+                  - plum
+                  - powderblue
+                  - purple
+                  - red
+                  - rosybrown
+                  - royalblue
+                  - saddlebrown
+                  - salmon
+                  - sandybrown
+                  - seagreen
+                  - seashell
+                  - sienna
+                  - silver
+                  - skyblue
+                  - slateblue
+                  - slategray
+                  - slategrey
+                  - snow
+                  - springgreen
+                  - steelblue
+                  - tan
+                  - teal
+                  - thistle
+                  - tomato
+                  - turquoise
+                  - violet
+                  - wheat
+                  - white
+                  - whitesmoke
+                  - yellow
+                  - yellowgreen
+                custom_value: false
+                sort: false
+                multiple: false
+          hs_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[300, 70]'
+            selector:
+              object:
+                multiple: false
+          xy_color:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            example: '[0.52, 0.43]'
+            selector:
+              object:
+                multiple: false
+          color_temp:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - color_temp
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              color_temp:
+                unit: mired
+                min: 153
+                max: 500
+          brightness:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - brightness
+                  - color_temp
+                  - hs
+                  - xy
+                  - rgb
+                  - rgbw
+                  - rgbww
+            selector:
+              number:
+                min: 0
+                max: 255
+                step: 1
+                mode: slider
+          white:
+            filter:
+              attribute:
+                supported_color_modes:
+                  - white
+            selector:
+              constant:
+                value: true
+                label: Enabled
+          profile:
+            example: relax
+            selector:
+              text:
+                multiple: false
+                multiline: false
+          flash:
+            filter:
+              supported_features:
+                - 8
+            selector:
+              select:
+                translation_key: flash
+                options:
+                  - long
+                  - short
+                custom_value: false
+                sort: false
+                multiple: false
+number:
+  set_value:
+    description: ''
+    fields:
+      value:
+        example: 42
+        required: true
+        selector:
+          text:
+            multiple: false
+            multiline: false
+esphome:
+  hasat4_set_led_color:
+    description: Performs the action set_led_color of the node hasat4
+    fields:
+      red:
+        name: red
+        required: true
+        description: null
+        example: '12.3'
+        selector:
+          number:
+            mode: box
+            step: 0.001
+      green:
+        name: green
+        required: true
+        description: null
+        example: '12.3'
+        selector:
+          number:
+            mode: box
+            step: 0.001
+      blue:
+        name: blue
+        required: true
+        description: null
+        example: '12.3'
+        selector:
+          number:
+            mode: box
+            step: 0.001
+  hasat4_start_va:
+    description: Performs the action start_va of the node hasat4
+    fields: {}
+  hasat4_stop_va:
+    description: Performs the action stop_va of the node hasat4
+    fields: {}
+  hasat4_set_alarm_time:
+    description: Performs the action set_alarm_time of the node hasat4
+    fields:
+      alarm_time_hh_mm:
+        name: alarm_time_hh_mm
+        required: true
+        description: null
+        example: Example text
+        selector:
+          text: null
+  hasat4_set_time_zone:
+    description: Performs the action set_time_zone of the node hasat4
+    fields:
+      posix_time_zone:
+        name: posix_time_zone
+        required: true
+        description: null
+        example: Example text
+        selector:
+          text: null
+  hasat5_set_led_color:
+    description: Performs the action set_led_color of the node hasat5
+    fields:
+      red:
+        name: red
+        required: true
+        description: null
+        example: '12.3'
+        selector:
+          number:
+            mode: box
+            step: 0.001
+      green:
+        name: green
+        required: true
+        description: null
+        example: '12.3'
+        selector:
+          number:
+            mode: box
+            step: 0.001
+      blue:
+        name: blue
+        required: true
+        description: null
+        example: '12.3'
+        selector:
+          number:
+            mode: box
+            step: 0.001
+  hasat5_start_va:
+    description: Performs the action start_va of the node hasat5
+    fields: {}
+  hasat5_stop_va:
+    description: Performs the action stop_va of the node hasat5
+    fields: {}
+  hasat5_set_alarm_time:
+    description: Performs the action set_alarm_time of the node hasat5
+    fields:
+      alarm_time_hh_mm:
+        name: alarm_time_hh_mm
+        required: true
+        description: null
+        example: Example text
+        selector:
+          text: null
+  hasat5_set_time_zone:
+    description: Performs the action set_time_zone of the node hasat5
+    fields:
+      posix_time_zone:
+        name: posix_time_zone
+        required: true
+        description: null
+        example: Example text
+        selector:
+          text: null
+cover:
+  open_cover:
+    description: ''
+    fields: {}
+  close_cover:
+    description: ''
+    fields: {}
+  set_cover_position:
+    description: ''
+    fields:
+      position:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+  stop_cover:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+  open_cover_tilt:
+    description: ''
+    fields: {}
+  close_cover_tilt:
+    description: ''
+    fields: {}
+  stop_cover_tilt:
+    description: ''
+    fields: {}
+  set_cover_tilt_position:
+    description: ''
+    fields:
+      tilt_position:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+  toggle_cover_tilt:
+    description: ''
+    fields: {}
+fan:
+  turn_on:
+    description: ''
+    fields:
+      percentage:
+        filter:
+          supported_features:
+            - 1
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+      preset_mode:
+        example: auto
+        filter:
+          supported_features:
+            - 8
+        selector:
+          text:
+            multiple: false
+            multiline: false
+  turn_off:
+    description: ''
+    fields: {}
+  toggle:
+    description: ''
+    fields: {}
+  increase_speed:
+    description: ''
+    fields:
+      percentage_step:
+        advanced: true
+        required: false
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+  decrease_speed:
+    description: ''
+    fields:
+      percentage_step:
+        advanced: true
+        required: false
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+  oscillate:
+    description: ''
+    fields:
+      oscillating:
+        required: true
+        selector:
+          boolean: {}
+  set_direction:
+    description: ''
+    fields:
+      direction:
+        required: true
+        selector:
+          select:
+            options:
+              - forward
+              - reverse
+            translation_key: direction
+            custom_value: false
+            sort: false
+            multiple: false
+  set_percentage:
+    description: ''
+    fields:
+      percentage:
+        required: true
+        selector:
+          number:
+            min: 0
+            max: 100
+            unit_of_measurement: '%'
+            step: 1
+            mode: slider
+  set_preset_mode:
+    description: ''
+    fields:
+      preset_mode:
+        required: true
+        example: auto
+        selector:
+          text:
+            multiple: false
+            multiline: false

@@ -1,0 +1,20 @@
+# Configuration locale - NE PAS VERSIONNER
+config/
+.env
+
+# Build output
+node_modules/
+dist/
+client/dist/
+server/dist/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

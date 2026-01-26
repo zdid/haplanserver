@@ -1,0 +1,26 @@
+{
+  "name": "Test Data",
+  "version": 1.0,
+  "features": [
+    "feature1",
+    "feature2",
+    "feature3"
+  ],
+  "config": {
+    "enabled": true,
+    "timeout": 30,
+    "retries": 3
+  },
+  "metadata": {
+    "author": "Test User",
+    "date": "2023-01-01",
+    "description": "This is a test JSON file for conversion to YAML"
+  },
+  "nested": {
+    "level1": {
+      "level2": {
+        "level3": "deep value"
+      }
+    }
+  }
+}

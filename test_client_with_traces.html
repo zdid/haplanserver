@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Client avec Traces - Home Assistant</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #log { background: #f0f0f0; padding: 10px; border: 1px solid #ccc; height: 300px; overflow-y: auto; }
+        .trace { font-family: monospace; font-size: 12px; }
+        .received { color: green; }
+        .sent { color: blue; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Client avec Traces - Home Assistant</h1>
+    
+    <h2>Journal des traces</h2>
+    <div id="log"></div>
+    
+    <script>
+        // Configuration
+        const SERVER_WS_URL = 'ws://localhost:3000';
+        const SERVER_HTTP_URL = 'http://localhost:3000';
+        
+        // Fonction pour ajouter une trace
+        function addTrace(message, type = 'info') {
+            const log = document.getElementById('log');
+            const entry = document.createElement('div');
+            entry.className = 'trace';
+            entry.className += ' ' + type;
+            entry.textContent = new Date().toISOString() + ' - ' + message;
+            log.appendChild(entry);
+            log.scrollTop = log.scrollHeight;
+        }
+        
+        // Connexion WebSocket
+        addTrace('Connexion au serveur WebSocket...', 'sent');
+        const socket = new WebSocket(SERVER_WS_URL);
+        
+        socket.onopen = () => {
+            addTrace('Connecté au serveur WebSocket', 'received');
+        };
+        
+        socket.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            addTrace('Message WebSocket reçu: ' + data.type, 'received');
+            
+            if (data.type === 'update:tree') {
+                addTrace('Arborescence mise à jour - ' + data.data.length + ' areas', 'received');
+            } else if (data.type === 'update:state') {
+                addTrace('State mis à jour: ' + data.data.entity_id + ' = ' + data.data.new_state.state, 'received');
+            } else if (data.type === 'update:config') {
+                addTrace('Configuration mise à jour', 'received');
+            } else if (data.type === 'update:floorplan') {
+                addTrace('Plan mis à jour: ' + data.data.path, 'received');
+            }
+        };
+        
+        socket.onerror = (error) => {
+            addTrace('Erreur WebSocket: ' + error.message, 'error');
+        };
+        
+        // Test HTTP
+        addTrace('Test HTTP GET /api/data...', 'sent');
+        fetch(SERVER_HTTP_URL + '/api/data')
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    addTrace('Données reçues via HTTP', 'received');
+                    addTrace('Arborescence: ' + data.data.tree.length + ' areas', 'received');
+                    addTrace('States: ' + data.data.states.length + ' entités', 'received');
+                } else {
+                    addTrace('Erreur HTTP: ' + data.error, 'error');
+                }
+            })
+            .catch(error => {
+                addTrace('Erreur HTTP: ' + error.message, 'error');
+            });
+        
+        addTrace('Client démarré - Attente des données...', 'info');
+    </script>
+</body>
+</html>
