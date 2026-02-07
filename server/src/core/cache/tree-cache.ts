@@ -4,6 +4,7 @@ import path from 'path';
 import * as  yaml from 'js-yaml';
 
 interface AreaNode {
+  
   id: string;
   name: string;
   devices: DeviceNode[];
@@ -113,9 +114,9 @@ class TreeCache {
     })
     console.log('[TRACE] TreeCache: Arborescence construite avec succès');
        // Écrire les collections sur disque si le paramètre est activé
-    if (this.configManager && this.configManager.shouldWriteCollectionsToDisk()) {
-      await this.writeCollectionsToDisk(areas, devices, entities, tree);
-   }
+  //   if (this.configManager && this.configManager.shouldWriteCollectionsToDisk()) {
+  //     await this.writeCollectionsToDisk(areas, devices, entities, tree);
+  //  }
     return tree;
   }
 

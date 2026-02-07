@@ -1,93 +1,91 @@
-import Tracer from '../utils/tracer';
+import { WebSocket } from 'ws';
 
-interface TraceContext {
-  traceId: string;
-  parentId?: string;
-  operation: string;
-  timestamp: number;
-  metadata?: Record<string, any>;
-}
+export default class NotificationService {
+    private clients: Set<WebSocket> = new Set();
 
-class NotificationService {
-  private clients: Set<any>;
+  public addClient(ws: WebSocket): void {
+    console.log('[NotificationService] Client connecté');
+    this.clients.add(ws);
+    
+    // ✅ Écouter la fermeture de la connexion
+    ws.on('close', () => {
+      console.log('[NotificationService] Client déconnecté');
+      this.clients.delete(ws);
+    });
 
-  constructor() {
-    this.clients = new Set();
+    // ✅ Écouter les erreurs
+    ws.on('error', (error) => {
+      console.error('[NotificationService] Erreur WebSocket:', error);
+      this.clients.delete(ws);
+    });
   }
-
-  addClient(client: any): void {
-    console.log('[TRACE] NotificationService: Nouveau client connecté - Total:', this.clients.size + 1);
-    this.clients.add(client);
-  }
-
-  removeClient(client: any): void {
-    console.log('[TRACE] NotificationService: Client déconnecté - Restants:', this.clients.size - 1);
-    this.clients.delete(client);
-  }
-
-  broadcastUpdate(type: string, data: any, traceContext?: TraceContext): void {
-    // Créer le message avec le bon format
-    let message;
-    if (type === 'state') {
-      // Format spécifique pour les mises à jour de state
-      message = JSON.stringify({
-        type: "state_updated",
-        payload: {
-          entity_id: data.entity_id,
-          new_state: data
-        }
-      });
+  public removeClient(ws: WebSocket): void {
+    if(this.clients.has(ws)) {
+      this.clients.delete(ws);
+      console.log('[NotificationService] Client supprimé');
     } else {
-      // Format générique pour les autres types
-      message = JSON.stringify({
-        type: `update:${type}`,
-        timestamp: Date.now(),
-        data: data
-      });
+      console.log('[NotificationService] Tentative de suppression d\'un client non existant');
     }
+  }
 
-    // Créer ou continuer une trace pour cette notification
-    const context = traceContext 
-      ? Tracer.continueTrace(traceContext, 'NotificationService.broadcastUpdate', {
-          updateType: type,
-          clientsCount: this.clients.size
-        })
-      : Tracer.startTrace('NotificationService.broadcastUpdate', {
-          updateType: type,
-          clientsCount: this.clients.size
-        });
-
-    console.log(`[TRACE] [${context.traceId}] NotificationService: Broadcast de ${type} à ${this.clients.size} clients`);
-    console.log(`[TRACE] [${context.traceId}] Message formaté:`, message);
+  public broadcastToAll(type: string, data: any): void {
+    // 💡 Trace spéciale pour light.bureau_plafonnier
+    if (type === 'state' && data.entity_id === 'light.bureau_plafonnier') {
+      console.log(`💡 [NotificationService] broadcastToAll pour ${data.entity_id}`, {
+        type,
+        state: data.state,
+        clients: this.clients.size
+      });
+    } else if(type !== 'state' && type !== 'refresh') {
+      console.log(`[NotificationService] Broadcast à ${this.clients.size} clients`,type, data);
+    }
     
-    let successfullySent = 0;
-    let failedToSend = 0;
-    
-    this.clients.forEach(client => {
-      if (client.readyState === 1) { // OPEN
+    const message = JSON.stringify({ type, data });
+    this.clients.forEach((client) => {
+      // ✅ Vérifier que le client est connecté avant d'envoyer
+      if (client.readyState === 1) {  // 1 = OPEN
         try {
           client.send(message);
-          successfullySent++;
-          console.log(`[TRACE] [${context.traceId}] Message envoyé avec succès au client`);
+          
+          // 💡 Trace spéciale pour light.bureau_plafonnier
+          if (type === 'state' && data.entity_id === 'light.bureau_plafonnier') {
+            console.log(`✉️ [NotificationService] Message envoyé au client pour ${data.entity_id}`);
+          }
         } catch (error) {
-          failedToSend++;
-          console.error(`[TRACE] [${context.traceId}] Échec de l'envoi au client:`, error);
+          console.error('[NotificationService] Erreur lors de l\'envoi:', error);
+          this.clients.delete(client);
         }
-      } else {
-        console.warn(`[TRACE] [${context.traceId}] Client non prêt (readyState: ${client.readyState})`);
-        failedToSend++;
       }
     });
-    
-    // Terminer la trace avec le statut
-    Tracer.endTrace(context, 'SUCCESS', {
-      successfullySent,
-      failedToSend,
-      totalClients: this.clients.size
+  }
+
+  public broadcastToAllExcept(type: string, data: any, excludedClient?: WebSocket): void {
+    const message = JSON.stringify({ type, data });
+    this.clients.forEach((client) => {
+      if (excludedClient && client === excludedClient) {
+        return;
+      }
+
+      if (client.readyState === 1) {
+        try {
+          client.send(message);
+        } catch (error) {
+          console.error('[NotificationService] Erreur lors de l\'envoi:', error);
+          this.clients.delete(client);
+        }
+      }
     });
-    
-    console.log(`[TRACE] [${context.traceId}] Notification propagée: ${successfullySent}/${this.clients.size} clients`);
+  }
+  
+  public getClientCount(): number {
+    return this.clients.size;
+  }
+
+  public closeAll(): void {
+    console.log('[NotificationService] Fermeture de tous les clients');
+    this.clients.forEach((client) => {
+      client.close();
+    });
+    this.clients.clear();
   }
 }
-
-export default NotificationService;

@@ -8,8 +8,6 @@ class ConfigManager {
   private configDir: string;
   private haConfig: any;
   private serverConfig: any;
-  private clientConfig: any;
-  private clientPositions: any;
 
   constructor(configDir: string = '../../../config') {
     this.configDir = path.resolve(__dirname, configDir);
@@ -45,30 +43,8 @@ class ConfigManager {
       const serverConfigPath = path.join(this.configDir, 'server-config.json');
       this.serverConfig = JSON.parse(fs.readFileSync(serverConfigPath, 'utf8'));
 
-      const clientConfigPath = path.join(this.configDir, 'client-config.json');
-      this.clientConfig = JSON.parse(fs.readFileSync(clientConfigPath, 'utf8'));
-
-      const clientPositionsPath = path.join(this.configDir, 'client-positions.json');
-      if(fs.existsSync(clientPositionsPath)) {
-        this.clientPositions = JSON.parse(fs.readFileSync(clientPositionsPath, 'utf8'));
-      } else {
-        console.warn("Avertissement: Impossible de charger le ficchier clientPositions", clientPositionsPath)
-        this.clientPositions = [];
-      }
-
     } catch (error) {
       console.error("Erreur de chargement des configurations:", error);
-      throw error;
-    }
-  }
-
-  savePositions(config: any): void {
-    try {
-      const configPath = path.join(this.configDir, 'client-positions.json');
-      fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
-      console.log('[TRACE] ConfigManager: Configuration sauvegardée dans', configPath);
-    } catch (error) {
-      console.error('[TRACE] ConfigManager: Échec de la sauvegarde:', error);
       throw error;
     }
   }
@@ -98,13 +74,8 @@ class ConfigManager {
     return JSON.parse(JSON.stringify(this.serverConfig));
   }
 
-  getClientConfig(): any {
-    return JSON.parse(JSON.stringify(this.clientConfig));
-  }
+  // ===== CHEMINS (responsabilité de ConfigManager) =====
 
-  getClientPositions(): any {
-    return JSON.parse(JSON.stringify(this.clientPositions));
-  }
   // Méthode pour obtenir le répertoire d'upload
   getUploadDir(): string {
     return this.serverConfig.paths?.uploadDir || 'uploads';
@@ -113,6 +84,16 @@ class ConfigManager {
   // Méthode pour obtenir le chemin complet du répertoire d'upload
   getFullUploadPath(): string {
     return path.join(__dirname, '../../../', this.getUploadDir());
+  }
+
+  // Méthode pour obtenir le chemin du fichier client-floorplans.json
+  getClientFloorplansPath(): string {
+    return path.join(this.configDir, 'client-floorplans.json');
+  }
+
+  // Méthode pour obtenir le répertoire de configuration
+  getConfigDir(): string {
+    return this.configDir;
   }
 
   // Méthode pour vérifier si l'écriture des collections est activée

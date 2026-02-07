@@ -1,0 +1,29 @@
+{
+  "rez de chaussée": {
+    "filename": "rez de chaussee.png",
+    "URL": "download/rez de chausse.png",
+    "positions": [
+      {
+        "entity_id": "light.cuisine",
+        "x": 100,
+        "y": 200
+      },
+      {
+        "entity_id": "light.salon",
+        "x": 300,
+        "y": 150
+      }
+    ]
+  },
+  "étage": {
+    "filename": "etage.png",
+    "URL": "download/etage.png",
+    "positions": [
+      {
+        "entity_id": "light.chambre",
+        "x": 200,
+        "y": 100
+      }
+    ]
+  }
+}
