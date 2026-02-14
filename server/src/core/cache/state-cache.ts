@@ -96,7 +96,6 @@ class StateCache {
 
   updateState(state: HAState, traceContext?: any): void {
     // Mettre à jour le cache des entités
-    console.log(`[StateCache] Mise à jour du state pour ${state.entity_id}`)
     this.entityStates.set(state.entity_id, state);
     // Mettre à jour le cache principal
     const currentStates = this.cache.get() || [];
